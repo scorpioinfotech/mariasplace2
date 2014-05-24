@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'roboto_slabregular';
+    src: url('RobotoSlab-Regular-webfont.eot');
+    src: url('RobotoSlab-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('RobotoSlab-Regular-webfont.woff') format('woff'),
+         url('RobotoSlab-Regular-webfont.ttf') format('truetype'),
+         url('RobotoSlab-Regular-webfont.svg#roboto_slabregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'nunitoregular';
+    src: url('nunito-regular-webfont.eot');
+    src: url('nunito-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('nunito-regular-webfont.woff') format('woff'),
+         url('nunito-regular-webfont.ttf') format('truetype'),
+         url('nunito-regular-webfont.svg#nunitoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'open_sanssemibold_italic';
+    src: url('opensans-semibolditalic-webfont.eot');
+    src: url('opensans-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-semibolditalic-webfont.woff') format('woff'),
+         url('opensans-semibolditalic-webfont.ttf') format('truetype'),
+         url('opensans-semibolditalic-webfont.svg#open_sanssemibold_italic') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('opensans-regular-webfont.eot');
+    src: url('opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('opensans-regular-webfont.woff') format('woff'),
+         url('opensans-regular-webfont.ttf') format('truetype'),
+         url('opensans-regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'nunitolight';
+    src: url('nunito-light-webfont.eot');
+    src: url('nunito-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('nunito-light-webfont.woff') format('woff'),
+         url('nunito-light-webfont.ttf') format('truetype'),
+         url('nunito-light-webfont.svg#nunitolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

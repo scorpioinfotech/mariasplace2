@@ -1,0 +1,2 @@
+[13-May-2014 06:08:03 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/azohub/public_html/wp-content/plugins/buddypress/bp-themes/bp-default/registration/register.php on line 1
+[13-May-2014 06:08:14 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/azohub/public_html/wp-content/plugins/buddypress/bp-themes/bp-default/registration/activate.php on line 1

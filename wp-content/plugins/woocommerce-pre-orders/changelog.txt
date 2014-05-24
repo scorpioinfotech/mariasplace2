@@ -1,0 +1,20 @@
+*** WooCommerce Pre-Orders Plugin ***
+
+2013.11.19 - version 1.0.5
+ * Fix - Pre order products that didn't get any pre orders are now also automatically marked as available
+
+2013.10.24 - version 1.0.4
+ * Fix - Manual made pre orders from admin panel are now correctly flagged as being a pre order
+
+2013.09.16 - version 1.0.3
+ * Fix - Cancel pre-order button now has correct listener
+
+2013.06.21 - version 1.0.2
+ * Fix - The availability date/time shown on the single product page and countdown timer is now properly adjusted for the site timezone
+ * Fix - Remove deprecated nocache() function
+
+2013.04.25 - version 1.0.1
+ * Fix - PHP 5.2 compatibility
+
+2013.04.11 - version 1.0
+ * Initial Release

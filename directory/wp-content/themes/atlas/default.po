@@ -1,0 +1,1988 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: HostDepot\n"
+"POT-Creation-Date: 2014-01-10 19:55-0000\n"
+"PO-Revision-Date: 2014-01-10 19:56-0000\n"
+"Last-Translator: Alessandro Tesoro <web.enovastudio@gmail.com>\n"
+"Language-Team: ThemesDepot <mythemesdepot@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_x;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:39
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:44
+msgid "It looks like nothing was found at this location. "
+msgstr ""
+
+#: 404.php:46 template-search-results.php:344
+msgid "Back To The Homepage"
+msgstr ""
+
+#: attachment.php:22 template-search-results.php:256
+#: framework/functions/theme-functions.php:258
+msgid "Home"
+msgstr ""
+
+#: comments.php:16 rev-comments.php:24
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:33
+msgid "Add yours."
+msgstr ""
+
+#: comments.php:38 comments.php:53 rev-comments.php:46 rev-comments.php:61
+msgid "<span class=\"meta-nav\">&laquo;</span> Older Comments"
+msgstr ""
+
+#: comments.php:39 comments.php:54 rev-comments.php:47 rev-comments.php:62
+msgid "Newer Comments <span class=\"meta-nav\">&raquo;</span>"
+msgstr ""
+
+#: comments.php:62
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:63 rev-comments.php:71
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:64 rev-comments.php:72
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:65
+msgid "Post Comment"
+msgstr ""
+
+#: content-gallery.php:46 content-link.php:22 content-video.php:22
+#: content.php:44
+msgid "Posted:"
+msgstr ""
+
+#: content-gallery.php:49 content-link.php:25 content-video.php:25
+#: content.php:47
+msgid "By: "
+msgstr ""
+
+#: content-gallery.php:52 content-link.php:28 content-video.php:28
+#: content.php:50
+msgid "Comments: "
+msgstr ""
+
+#: content-gallery.php:52 content-link.php:28 content-video.php:28
+#: content.php:50
+msgid "0"
+msgstr ""
+
+#: content-gallery.php:52 content-link.php:28 content-video.php:28
+#: content.php:50
+msgid "1"
+msgstr ""
+
+#: content-gallery.php:58 content-link.php:34 content-page.php:37
+#: content-video.php:34 content.php:56
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: content-gallery.php:60 content-link.php:36 content-page.php:39
+#: content-video.php:36 content.php:60
+msgid "Pages:"
+msgstr ""
+
+#: content-listing-list-grid.php:12 content-listing-list-view.php:38
+#: content-listing.php:12 content-single-result-grid.php:19
+#: content-single-result.php:19 includes/featured-carousel.php:47
+#: includes/top-single.php:10
+msgid "Featured Listing"
+msgstr ""
+
+#: content-listing-list-grid.php:68 content-listing-list-view.php:106
+#: content-listing.php:99 content-single-result-grid.php:73
+#: content-single-result.php:91
+msgid "No rating yet."
+msgstr ""
+
+#: content-listing-list-view.php:137 content-listing.php:108
+#: content-single-result.php:96
+msgid "Read More &raquo"
+msgstr ""
+
+#: content-single-listing.php:33
+msgid "You forgot to fill in your name"
+msgstr ""
+
+#: content-single-listing.php:43
+msgid "Your forgot to fill in the email address of your friend"
+msgstr ""
+
+#: content-single-listing.php:47
+msgid "Wrong email format"
+msgstr ""
+
+#: content-single-listing.php:58
+msgid "You forgot to fill in your message"
+msgstr ""
+
+#: content-single-listing.php:72
+msgid "Message from "
+msgstr ""
+
+#: content-single-listing.php:234
+msgid "Share Listing"
+msgstr ""
+
+#: content-single-listing.php:273 includes/listing-tab1.php:10
+msgid "Contact Details"
+msgstr ""
+
+#: content-single-listing.php:275 framework/fields/listings_post.php:284
+#: includes/listing-tab2.php:8
+msgid "Opening Times"
+msgstr ""
+
+#: content-single-listing.php:278 framework/fields/listings_post.php:88
+#: includes/listing-tab3.php:11
+msgid "Other Information"
+msgstr ""
+
+#: content-single-listing.php:281 includes/listing-tab4.php:8
+msgid "Send To A Friend"
+msgstr ""
+
+#: content-single-listing.php:284 includes/listing-drivingdirections.php:13
+#: includes/listing-drivingdirections.php:120
+msgid "Get Directions"
+msgstr ""
+
+#: content-single-listing.php:287 framework/fields/listings_post.php:480
+#: includes/listing-promotions.php:9
+msgid "Promotions"
+msgstr ""
+
+#: functions.php:45 framework/functions/core-functions.php:200
+msgid "Theme Options"
+msgstr ""
+
+#: header.php:39
+#, php-format
+msgid ""
+"Hello <a href='%s'>%s</a>, you can still post <strong>%s</strong> listings. "
+"<a href='%s'>Submit listing</a> | <a href='%s'>Manage Listings</a> | <a "
+"href='%s'>Logout</a>"
+msgstr ""
+
+#: header.php:49
+#, php-format
+msgid "Hello <a href='%s'>%s</a>, <a href='%s'>Logout</a>"
+msgstr ""
+
+#: member-listings.php:10
+#, php-format
+msgid "Listings Submitted By %s"
+msgstr ""
+
+#: member-listings.php:76 framework/fields/listings_post.php:34
+msgid "Listing Title"
+msgstr ""
+
+#: member-listings.php:77 member-listings.php:109
+msgid "View Listing"
+msgstr ""
+
+#: member-listings.php:128 framework/functions/frontend_dashboard.php:175
+msgid "&laquo;"
+msgstr ""
+
+#: member-listings.php:129 framework/functions/frontend_dashboard.php:176
+msgid "&raquo;"
+msgstr ""
+
+#: no-results.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: no-results.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: no-results.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: no-results.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: rev-comments.php:41
+msgid "Add your review &raquo;"
+msgstr ""
+
+#: rev-comments.php:70
+msgid "Submit A Review"
+msgstr ""
+
+#: rev-comments.php:73
+msgid "Post Your Review"
+msgstr ""
+
+#: single-listing.php:59
+#: framework/functions/listings/favorite/wp-favorite-posts.php:111
+#: framework/functions/listings/favorite/wp-favorite-posts.php:115
+msgid "Add To Favorites"
+msgstr ""
+
+#: single-listing.php:65
+msgid "Claim Listing"
+msgstr ""
+
+#: single-listing.php:69
+msgid "Print Listing"
+msgstr ""
+
+#: single-listing.php:73
+msgid "Display Map"
+msgstr ""
+
+#: single-listing.php:97
+msgid "Only registered users can save listings to their favorites"
+msgstr ""
+
+#: taxonomy-listings_categories.php:148 taxonomy-listings_location.php:146
+#: template-all-listings.php:118 template-search-results.php:337
+msgid "Oops! It looks like nothing was found."
+msgstr ""
+
+#: taxonomy-listings_categories.php:154 taxonomy-listings_location.php:152
+#: template-all-listings.php:124 template-search-page.php:57
+#: framework/functions/theme-setup.php:494
+#: framework/functions/theme-setup.php:718 includes/search-listings.php:3
+msgid "Search For Listings"
+msgstr ""
+
+#: template-edit-listing.php:80
+msgid "Update This Listing &raquo;"
+msgstr ""
+
+#: template-edit-listing.php:93 template-edit-listing.php:131
+#: template-submit-listing.php:87
+msgid "Unauthorized Access"
+msgstr ""
+
+#: template-edit-listing.php:97
+msgid "You are not allowed to edit this listing."
+msgstr ""
+
+#: template-edit-listing.php:111
+msgid "Listing Successfully Edited"
+msgstr ""
+
+#: template-edit-listing.php:118 template-edit-listing.php:138
+msgid "Go to Listings Management &raquo;"
+msgstr ""
+
+#: template-edit-listing.php:135
+msgid "Visit the listings management page to modify a listing."
+msgstr ""
+
+#: template-login.php:29
+msgid "It looks like you are already logged in."
+msgstr ""
+
+#: template-login.php:31 template-login.php:79
+msgid "Back to the website"
+msgstr ""
+
+#: template-login.php:52 includes/custom-tabs.php:461
+#: includes/default-tabs.php:94
+msgid "Username"
+msgstr ""
+
+#: template-login.php:53 includes/custom-tabs.php:462
+#: includes/default-tabs.php:95
+msgid "Password"
+msgstr ""
+
+#: template-login.php:54 includes/custom-tabs.php:463
+#: includes/default-tabs.php:96
+msgid "Remember Me"
+msgstr ""
+
+#: template-login.php:55 includes/custom-tabs.php:464
+#: includes/default-tabs.php:97
+msgid "Log In"
+msgstr ""
+
+#: template-login.php:68
+msgid "Not Registered Yet ? Signup Now &raquo;"
+msgstr ""
+
+#: template-login.php:75 includes/custom-tabs.php:490
+#: includes/default-tabs.php:124
+msgid "Login or Register With Facebook"
+msgstr ""
+
+#: template-login.php:83
+msgid "Password Lost?"
+msgstr ""
+
+#: template-password-recovery.php:37
+msgid "Your new password for the account at:"
+msgstr ""
+
+#: template-password-recovery.php:39 template-password-recovery.php:97
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: template-password-recovery.php:40
+#, php-format
+msgid "Password: %s"
+msgstr ""
+
+#: template-password-recovery.php:41
+msgid "You can now login with your new password at: "
+msgstr ""
+
+#: template-password-recovery.php:63
+msgid "Please enter your Username or E-mail address"
+msgstr ""
+
+#: template-password-recovery.php:72
+msgid "Invalid Email Address"
+msgstr ""
+
+#: template-password-recovery.php:79
+msgid "Invalid Username"
+msgstr ""
+
+#: template-password-recovery.php:95
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: template-password-recovery.php:98
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: template-password-recovery.php:99
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: template-password-recovery.php:103 template-password-recovery.php:107
+msgid "We just sent you an email."
+msgstr ""
+
+#: template-password-recovery.php:156
+msgid "Forgot your password?"
+msgstr ""
+
+#: template-password-recovery.php:161
+msgid "Enter your username or email address"
+msgstr ""
+
+#: template-password-recovery.php:165
+msgid "Reset Password"
+msgstr ""
+
+#: template-password-recovery.php:172
+msgid "Processing"
+msgstr ""
+
+#: template-search-results.php:258 includes/search-breadcrumb.php:7
+msgid "Search Results"
+msgstr ""
+
+#: template-search-results.php:280
+msgid "Displaying results "
+msgstr ""
+
+#: template-search-results.php:280
+msgid "of "
+msgstr ""
+
+#: template-search-results.php:281
+msgid "For: "
+msgstr ""
+
+#: template-search-results.php:342
+msgid "You might want to try with different search terms. "
+msgstr ""
+
+#: template-submit-listing.php:72
+msgid "Submit Your Listing &raquo;"
+msgstr ""
+
+#: template-submit-listing.php:93
+msgid "Login Now &raquo;"
+msgstr ""
+
+#: template-submit-listing.php:94
+msgid "Register New Account &raquo;"
+msgstr ""
+
+#: template-submit-listing.php:95
+msgid "Renew Your Membership &raquo;"
+msgstr ""
+
+#: template-submit-listing.php:104
+msgid "You are not allowed to submit listings through a mobile device."
+msgstr ""
+
+#: framework/fields/listings_post.php:20
+msgid "Main Information"
+msgstr ""
+
+#: framework/fields/listings_post.php:37
+msgid "Enter the title of the listing."
+msgstr ""
+
+#: framework/fields/listings_post.php:48
+msgid "Listing Tags"
+msgstr ""
+
+#: framework/fields/listings_post.php:51
+msgid ""
+"Enter the tags for this listing. Separate Each Tag with a comma. Ex: tag1, "
+"tag2, etc"
+msgstr ""
+
+#: framework/fields/listings_post.php:62
+msgid "Select Listing Category"
+msgstr ""
+
+#: framework/fields/listings_post.php:65
+msgid "Select a category for this listing."
+msgstr ""
+
+#: framework/fields/listings_post.php:76
+msgid "Listing Description"
+msgstr ""
+
+#: framework/fields/listings_post.php:79
+msgid "Enter the description for this listing."
+msgstr ""
+
+#: framework/fields/listings_post.php:94
+msgid "Select Listing Location Area"
+msgstr ""
+
+#: framework/fields/listings_post.php:97
+msgid "Select the location area for this listing."
+msgstr ""
+
+#: framework/fields/listings_post.php:107
+msgid "Location"
+msgstr ""
+
+#: framework/fields/listings_post.php:110
+msgid ""
+"Enter the location of this listing. <strong>Press the enter button to update "
+"the address, or simply double click on the map to set the pin location.</"
+"strong>"
+msgstr ""
+
+#: framework/fields/listings_post.php:119
+msgid "Telephone"
+msgstr ""
+
+#: framework/fields/listings_post.php:122
+#: framework/fields/listings_post.php:135
+msgid "Inser the phone number for contact information."
+msgstr ""
+
+#: framework/fields/listings_post.php:132
+msgid "Mobile Phone Number"
+msgstr ""
+
+#: framework/fields/listings_post.php:145
+msgid "Alternative Email Address"
+msgstr ""
+
+#: framework/fields/listings_post.php:148
+msgid ""
+"By default, the email address is grabbed by the post author, if you wish to "
+"change the email address into something else, please insert the email here, "
+"otherwise leave this field blank."
+msgstr ""
+
+#: framework/fields/listings_post.php:167
+#: framework/functions/theme-functions.php:149 includes/listing-tab1.php:57
+msgid "Website"
+msgstr ""
+
+#: framework/fields/listings_post.php:170
+msgid "Insert the listing website if available."
+msgstr ""
+
+#: framework/fields/listings_post.php:180
+msgid "Facebook Profile"
+msgstr ""
+
+#: framework/fields/listings_post.php:183
+msgid "Insert a facebook profile/page url if available."
+msgstr ""
+
+#: framework/fields/listings_post.php:193
+msgid "Twitter Profile"
+msgstr ""
+
+#: framework/fields/listings_post.php:196
+msgid "Insert a twitter url if available."
+msgstr ""
+
+#: framework/fields/listings_post.php:206
+msgid "Google Plus Profile"
+msgstr ""
+
+#: framework/fields/listings_post.php:209
+msgid "Insert a Google Plus url if available."
+msgstr ""
+
+#: framework/fields/listings_post.php:219
+msgid "Instagram Profile"
+msgstr ""
+
+#: framework/fields/listings_post.php:222
+msgid "Insert a Instagram url if available."
+msgstr ""
+
+#: framework/fields/listings_post.php:232
+msgid "Foursquare Profile"
+msgstr ""
+
+#: framework/fields/listings_post.php:235
+msgid "Insert a foursquare url if available."
+msgstr ""
+
+#: framework/fields/listings_post.php:245
+msgid "Custom Fields Builder"
+msgstr ""
+
+#: framework/fields/listings_post.php:248
+msgid "Here you can specify additional information about your listing."
+msgstr ""
+
+#: framework/fields/listings_post.php:252
+msgid "Field Title"
+msgstr ""
+
+#: framework/fields/listings_post.php:255
+msgid "Please enter the name of this field."
+msgstr ""
+
+#: framework/fields/listings_post.php:266
+msgid "Field Content"
+msgstr ""
+
+#: framework/fields/listings_post.php:269
+msgid "Please enter the content of this field."
+msgstr ""
+
+#: framework/fields/listings_post.php:280
+msgid "Add New Information"
+msgstr ""
+
+#: framework/fields/listings_post.php:290 includes/listing-tab2.php:12
+msgid "Monday"
+msgstr ""
+
+#: framework/fields/listings_post.php:293
+#: framework/fields/listings_post.php:306
+#: framework/fields/listings_post.php:319
+#: framework/fields/listings_post.php:332
+#: framework/fields/listings_post.php:345
+#: framework/fields/listings_post.php:358
+#: framework/fields/listings_post.php:371
+msgid "If available you can set opening times here."
+msgstr ""
+
+#: framework/fields/listings_post.php:303 includes/listing-tab2.php:13
+msgid "Tuesday"
+msgstr ""
+
+#: framework/fields/listings_post.php:316 includes/listing-tab2.php:14
+msgid "Wednesday"
+msgstr ""
+
+#: framework/fields/listings_post.php:329 includes/listing-tab2.php:15
+msgid "Thursday"
+msgstr ""
+
+#: framework/fields/listings_post.php:342 includes/listing-tab2.php:16
+msgid "Friday"
+msgstr ""
+
+#: framework/fields/listings_post.php:355 includes/listing-tab2.php:17
+msgid "Saturday"
+msgstr ""
+
+#: framework/fields/listings_post.php:368 includes/listing-tab2.php:18
+msgid "Sunday"
+msgstr ""
+
+#: framework/fields/listings_post.php:382
+#: framework/functions/listings/theme-specific.php:946
+#: framework/functions/listings/theme-specific.php:949
+msgid "Media"
+msgstr ""
+
+#: framework/fields/listings_post.php:388
+#: framework/functions/frontend_dashboard.php:88
+msgid "Featured Image"
+msgstr ""
+
+#: framework/fields/listings_post.php:391
+msgid ""
+"Insert the featured image for this listing. This will be the first image of "
+"your listing. <strong class=\"note-admin\">Note: this field can be used as "
+"an alternative to the normal featured image. The reason why you have this "
+"alternative is because to submit a listing from the frontend you need this "
+"field. However if you added a featured image it will display normally before "
+"this image. For more information please refer to the documentation.</strong>"
+msgstr ""
+
+#: framework/fields/listings_post.php:398
+#: framework/fields/listings_post.php:408
+#: framework/fields/listings_post.php:418
+#: framework/fields/listings_post.php:428
+msgid "Additional Image"
+msgstr ""
+
+#: framework/fields/listings_post.php:401
+#: framework/fields/listings_post.php:411
+#: framework/fields/listings_post.php:421
+#: framework/fields/listings_post.php:431
+msgid ""
+"Upload a picture. This image will be displayed after the featured image "
+"inside the gallery."
+msgstr ""
+
+#: framework/fields/listings_post.php:439
+msgid "Insert Video ?"
+msgstr ""
+
+#: framework/fields/listings_post.php:442
+msgid ""
+"Select the video provider form the list and then type the video ID into the "
+"field below."
+msgstr ""
+
+#: framework/fields/listings_post.php:455
+msgid "Enter the video ID"
+msgstr ""
+
+#: framework/fields/listings_post.php:458
+msgid ""
+"Enter the video ID of a video hosted on Youtube, Vimeo or DailyMotion e.g "
+"INmtQXUXez8"
+msgstr ""
+
+#: framework/fields/listings_post.php:486
+msgid "Add Promotions To Your Listing"
+msgstr ""
+
+#: framework/fields/listings_post.php:489
+msgid "Press the add new promotion button to start adding promotions."
+msgstr ""
+
+#: framework/fields/listings_post.php:493
+msgid "Promotion Image"
+msgstr ""
+
+#: framework/fields/listings_post.php:496
+msgid "Upload an image for this promotion, recommended image width is 660px."
+msgstr ""
+
+#: framework/fields/listings_post.php:504
+msgid "Promotion Description"
+msgstr ""
+
+#: framework/fields/listings_post.php:507
+msgid "Enter a description for this promotion"
+msgstr ""
+
+#: framework/fields/listings_post.php:516
+msgid "Get Promotion Button"
+msgstr ""
+
+#: framework/fields/listings_post.php:519
+msgid ""
+"Use this field to add a button that will link to the promotion. If blank, no "
+"button will be added."
+msgstr ""
+
+#: framework/fields/listings_post.php:530
+msgid "Get Promotion URL"
+msgstr ""
+
+#: framework/fields/listings_post.php:533
+msgid "Enter the url of the promotion button."
+msgstr ""
+
+#: framework/fields/listings_post.php:651
+msgid "New Listing Submission"
+msgstr ""
+
+#: framework/fields/listings_post.php:652
+#: framework/fields/listings_post.php:778
+#: framework/functions/listings/theme-specific.php:270
+msgid "Atlas Admin"
+msgstr ""
+
+#: framework/fields/listings_post.php:657
+#: framework/fields/listings_post.php:783
+#: framework/functions/listings/theme-specific.php:275
+msgid "Dear Admin,"
+msgstr ""
+
+#: framework/fields/listings_post.php:658
+#, php-format
+msgid "The following listing has just been submitted on your %s website."
+msgstr ""
+
+#: framework/fields/listings_post.php:659
+#: framework/fields/listings_post.php:710
+#: framework/fields/listings_post.php:785
+#: framework/fields/listings_post.php:816
+msgid "Listing Details"
+msgstr ""
+
+#: framework/fields/listings_post.php:660
+#: framework/fields/listings_post.php:711
+#: framework/fields/listings_post.php:714
+#: framework/fields/listings_post.php:786
+#: framework/fields/listings_post.php:788
+#: framework/fields/listings_post.php:817
+#: framework/fields/listings_post.php:820
+msgid "-----------------"
+msgstr ""
+
+#: framework/fields/listings_post.php:661
+#: framework/fields/listings_post.php:712
+#: framework/fields/listings_post.php:787
+#: framework/fields/listings_post.php:818
+msgid "Title: "
+msgstr ""
+
+#: framework/fields/listings_post.php:662
+msgid "Author: "
+msgstr ""
+
+#: framework/fields/listings_post.php:706
+#, php-format
+msgid "Your Listing Submission on %s"
+msgstr ""
+
+#: framework/fields/listings_post.php:707
+#: framework/fields/listings_post.php:813
+#, php-format
+msgid "%s Admin"
+msgstr ""
+
+#: framework/fields/listings_post.php:708
+#: framework/fields/listings_post.php:814
+#, php-format
+msgid "Hi %s,"
+msgstr ""
+
+#: framework/fields/listings_post.php:709
+#, php-format
+msgid ""
+"Thank you for your recent submission! Your ad listing has been submitted for "
+"review and will not appear live on our site until it has been approved. "
+"Below you will find a summary of your ad listing on the %s website."
+msgstr ""
+
+#: framework/fields/listings_post.php:713
+#: framework/fields/listings_post.php:819
+msgid "Status: "
+msgstr ""
+
+#: framework/fields/listings_post.php:715
+#: framework/fields/listings_post.php:821
+msgid ""
+"You may check the status of your listing(s) at anytime by logging into your "
+"dashboard."
+msgstr ""
+
+#: framework/fields/listings_post.php:717
+#: framework/fields/listings_post.php:823
+msgid "Regards,"
+msgstr ""
+
+#: framework/fields/listings_post.php:718
+#: framework/fields/listings_post.php:824
+#, php-format
+msgid "Your %s Team"
+msgstr ""
+
+#: framework/fields/listings_post.php:777
+msgid "Review Listing Modification"
+msgstr ""
+
+#: framework/fields/listings_post.php:784
+#, php-format
+msgid ""
+"The following listing has just been re-submitted and or modified on your %s "
+"website."
+msgstr ""
+
+#: framework/fields/listings_post.php:789
+#, php-format
+msgid "Review Listing: %s"
+msgstr ""
+
+#: framework/fields/listings_post.php:812
+#, php-format
+msgid "Your Listing Modification on %s"
+msgstr ""
+
+#: framework/fields/listings_post.php:815
+#, php-format
+msgid ""
+"Thank you for your recent modification! Your listing modification has been "
+"submitted for review and will not appear live on our site until it has been "
+"approved. Below you will find a summary of your ad listing on the %s website."
+msgstr ""
+
+#: framework/fields/theme_options.php:392
+msgid "Multi Rating Box Position"
+msgstr ""
+
+#: framework/fields/theme_options.php:395
+msgid "Select where you'd like to display the multi rating box."
+msgstr ""
+
+#: framework/fields/theme_options.php:406
+msgid "Multi Set ID Number"
+msgstr ""
+
+#: framework/fields/theme_options.php:422
+msgid "Align Rating Stars"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:164
+#: framework/functions/required_plugins.php:122
+msgid "Install Required Plugins"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:165
+#: framework/functions/required_plugins.php:123
+msgid "Install Plugins"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:166
+#: framework/functions/required_plugins.php:124
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:167
+msgid "Something went wrong."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:178
+#: framework/functions/class-tgm-plugin-activation.php:490
+#: framework/functions/required_plugins.php:136
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:179
+#: framework/functions/class-tgm-plugin-activation.php:1846
+#: framework/functions/required_plugins.php:137
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:180
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:517
+#: framework/functions/class-tgm-plugin-activation.php:2058
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:545
+#, php-format
+msgid "The following plugin was activated successfully: %s."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:704
+msgid "Dismiss this notice"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1091
+msgid "External Link"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1096
+msgid "Private Repository"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1099
+msgid "Pre-Packaged"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1103
+msgid "WordPress Repository"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1106
+msgid "Required"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1106
+msgid "Recommended"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1109
+msgid "Not Installed"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1111
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1281
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1297
+msgid "Plugin"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1298
+msgid "Source"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1299
+msgid "Type"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1300
+msgid "Status"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1318
+msgid "Install"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1319
+msgid "Activate"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1829
+msgid "Install package not available."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1830
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1831
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1832
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1833
+msgid "Plugin install failed."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1834
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1845
+msgid "Plugin activation failed."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1955
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1956
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1956
+#: framework/functions/class-tgm-plugin-activation.php:1965
+msgid "Show Details"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1956
+#: framework/functions/class-tgm-plugin-activation.php:1965
+msgid "Hide Details"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1957
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1958
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1962
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1963
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1964
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1965
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1966
+msgid "All installations have been completed."
+msgstr ""
+
+#: framework/functions/class-tgm-plugin-activation.php:1967
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: framework/functions/core-functions.php:209
+msgid "Customize Layout"
+msgstr ""
+
+#: framework/functions/cpt.php:486
+msgid "Add New"
+msgstr ""
+
+#: framework/functions/cpt.php:487 framework/functions/cpt.php:599
+msgid "Add New "
+msgstr ""
+
+#: framework/functions/cpt.php:488 framework/functions/cpt.php:596
+msgid "Edit "
+msgstr ""
+
+#: framework/functions/cpt.php:489 framework/functions/cpt.php:600
+msgid "New "
+msgstr ""
+
+#: framework/functions/cpt.php:490 framework/functions/cpt.php:597
+msgid "View "
+msgstr ""
+
+#: framework/functions/cpt.php:491 framework/functions/cpt.php:603
+msgid "Search "
+msgstr ""
+
+#: framework/functions/cpt.php:492 framework/functions/cpt.php:493
+#: framework/functions/cpt.php:608 framework/functions/cpt.php:762
+msgid "No "
+msgstr ""
+
+#: framework/functions/cpt.php:494 framework/functions/cpt.php:601
+#: framework/functions/cpt.php:602
+msgid "Parent "
+msgstr ""
+
+#: framework/functions/cpt.php:595
+msgid "All "
+msgstr ""
+
+#: framework/functions/cpt.php:598
+msgid "Update "
+msgstr ""
+
+#: framework/functions/cpt.php:604
+msgid "Popular "
+msgstr ""
+
+#: framework/functions/cpt.php:605
+msgid "Seperate "
+msgstr ""
+
+#: framework/functions/cpt.php:606
+msgid "Add or remove "
+msgstr ""
+
+#: framework/functions/cpt.php:607
+msgid "Choose from most used "
+msgstr ""
+
+#: framework/functions/cpt.php:664
+msgid "Title"
+msgstr ""
+
+#: framework/functions/cpt.php:691
+msgid "Date"
+msgstr ""
+
+#: framework/functions/frontend_dashboard.php:71
+#, php-format
+msgid "Welcome To Your Dashboard %s"
+msgstr ""
+
+#: framework/functions/frontend_dashboard.php:76
+#, php-format
+msgid "You have added a total of <span>%d</span> %s"
+msgstr ""
+
+#: framework/functions/frontend_dashboard.php:92
+#, php-format
+msgid "%s Title"
+msgstr ""
+
+#: framework/functions/frontend_dashboard.php:95
+#, php-format
+msgid "%s Status"
+msgstr ""
+
+#: framework/functions/frontend_dashboard.php:100
+msgid "Payment"
+msgstr ""
+
+#: framework/functions/frontend_dashboard.php:104
+#, php-format
+msgid "Manage %s"
+msgstr ""
+
+#: framework/functions/frontend_dashboard.php:123
+msgid "No Image"
+msgstr ""
+
+#: framework/functions/frontend_dashboard.php:152
+msgid "Edit"
+msgstr ""
+
+#: framework/functions/frontend_dashboard.php:158
+msgid "Delete"
+msgstr ""
+
+#: framework/functions/frontend_dashboard.php:189
+#, php-format
+msgid "No %s found"
+msgstr ""
+
+#: framework/functions/frontend_dashboard.php:220
+msgid "The selected post has been deleted."
+msgstr ""
+
+#: framework/functions/frontend_dashboard.php:223
+msgid "You are not allowed to delete this post."
+msgstr ""
+
+#: framework/functions/required_plugins.php:125
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: framework/functions/required_plugins.php:138
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:43
+msgid "Default"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:73
+msgid "Theme Skin"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:78
+msgid "Theme Skin Style"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:99
+msgid "Site Title"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:107
+msgid "Topbar Gradient Start"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:113
+msgid "Topbar gradient end"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:118
+msgid "Topbar text color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:123
+msgid "Topbar links color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:128
+msgid "Header Color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:133
+msgid "Header Links Color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:138
+msgid "Header Active Link Color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:144
+msgid "Homepage Sidebar Bg Color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:150
+msgid "Homepage Sidebar Tabs Bg Color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:156
+msgid "Homepage Sidebar Tabs Icon Color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:162
+msgid "Homepage Sidebar Tabs Icon Active Color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:167
+msgid "Homepage Sidebar Tabs Headings Color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:173
+msgid ""
+"Theme Main Color (Use this option to change the color of various elements of "
+"the theme, quick and easy)"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:179
+msgid "Body Font Color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:185
+msgid "Body Background Color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:190
+msgid "Map Pulse Animation Bg Color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:195
+msgid "Top Footer Background Color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:201
+msgid "Bottom Footer Background Color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:207
+msgid "Bottom Footer Border Color"
+msgstr ""
+
+#: framework/functions/theme-customizer.php:213
+msgid "Footer Font Color"
+msgstr ""
+
+#: framework/functions/theme-functions.php:43
+msgid "Primary Menu"
+msgstr ""
+
+#: framework/functions/theme-functions.php:44
+msgid "Footer Menu"
+msgstr ""
+
+#: framework/functions/theme-functions.php:45
+msgid "Responsive Menu"
+msgstr ""
+
+#: framework/functions/theme-functions.php:105
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: framework/functions/theme-functions.php:147
+msgid "Name"
+msgstr ""
+
+#: framework/functions/theme-functions.php:148
+msgid "Email"
+msgstr ""
+
+#: framework/functions/theme-functions.php:181
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: framework/functions/theme-functions.php:187
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: framework/functions/theme-functions.php:206
+msgid "Pingback:"
+msgstr ""
+
+#: framework/functions/theme-functions.php:259
+#, php-format
+msgid "Archive by Category \"%s\""
+msgstr ""
+
+#: framework/functions/theme-functions.php:260
+#, php-format
+msgid "Search Results for \"%s\" Query"
+msgstr ""
+
+#: framework/functions/theme-functions.php:261
+#, php-format
+msgid "Posts Tagged \"%s\""
+msgstr ""
+
+#: framework/functions/theme-functions.php:262
+#, php-format
+msgid "Articles Posted by %s"
+msgstr ""
+
+#: framework/functions/theme-functions.php:263
+msgid "Error 404"
+msgstr ""
+
+#: framework/functions/theme-functions.php:374
+msgid "Page"
+msgstr ""
+
+#: framework/functions/theme-functions.php:429
+msgid "Next Entries"
+msgstr ""
+
+#: framework/functions/theme-functions.php:439
+msgid "Previous Entries"
+msgstr ""
+
+#: framework/functions/theme-functions.php:618
+msgid ""
+"The theme requires the \"Hangar Shortcodes Pack\" module to be enabled. "
+"Please navigate to <a href=\""
+msgstr ""
+
+#: framework/functions/theme-setup.php:299
+msgid "Select A Category"
+msgstr ""
+
+#: framework/functions/theme-setup.php:332
+msgid "Select An Area"
+msgstr ""
+
+#: framework/functions/theme-setup.php:442
+msgid "Select a Category &raquo;"
+msgstr ""
+
+#: framework/functions/theme-setup.php:471
+msgid "Select A Location &raquo;"
+msgstr ""
+
+#: framework/functions/theme-setup.php:495
+msgid "What are you looking for ?"
+msgstr ""
+
+#: framework/functions/theme-setup.php:508
+msgid "Select A Category:"
+msgstr ""
+
+#: framework/functions/theme-setup.php:517
+msgid "Select A Subcategory"
+msgstr ""
+
+#: framework/functions/theme-setup.php:520
+msgid "Select A Category First"
+msgstr ""
+
+#: framework/functions/theme-setup.php:528
+msgid "Listing Category"
+msgstr ""
+
+#: framework/functions/theme-setup.php:530
+msgid "All Categories"
+msgstr ""
+
+#: framework/functions/theme-setup.php:547
+msgid "Select A Location"
+msgstr ""
+
+#: framework/functions/theme-setup.php:556
+msgid "Select The Area"
+msgstr ""
+
+#: framework/functions/theme-setup.php:559
+msgid "Select A Location First"
+msgstr ""
+
+#: framework/functions/theme-setup.php:566
+msgid "Listing Location"
+msgstr ""
+
+#: framework/functions/theme-setup.php:568
+msgid "All Locations"
+msgstr ""
+
+#: framework/functions/theme-setup.php:584
+msgid "Display All Listings"
+msgstr ""
+
+#: framework/functions/theme-setup.php:584
+msgid "Display Only Featured Listings"
+msgstr ""
+
+#: framework/functions/theme-setup.php:746
+msgid ""
+"Warning: to allow users to post from the front-end you need to change the "
+"default registration user role. Please navigate to \"Settings\" -> \"General"
+"\" and change the option \"New User Default Role\" to \"Listing Contributor"
+"\"."
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:11
+msgid "0 View"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:13
+msgid " Views"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:63
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:216
+msgid "Published"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:218
+msgid "Draft"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:220
+msgid "Awaiting Approval"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:222
+msgid "Scheduled"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:224
+msgid "Private"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:269
+msgid "A listing has been claimed."
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:276
+#, php-format
+msgid "A listing has just been claimed on your %s website."
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:277
+#, php-format
+msgid "Review Claim: %s"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:297
+#, php-format
+msgid "Hi %s, your listing %s has just been published at %s. Will done!"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:315
+msgid ""
+"Hello admin! Looks like you did not setup the google map type! Please "
+"navigate to <a href=\""
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:916
+#: framework/functions/listings/theme-specific.php:919
+msgid "Dashboard"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:922
+#: framework/functions/listings/theme-specific.php:925
+msgid "Posts"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:928
+#: framework/functions/listings/theme-specific.php:931
+msgid "Listings"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:934
+#: framework/functions/listings/theme-specific.php:937
+msgid "Tools"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:940
+#: framework/functions/listings/theme-specific.php:943
+msgid "Contact"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:1027
+msgid "Submitted Listings"
+msgstr ""
+
+#: framework/functions/listings/theme-specific.php:1047
+msgid "View All Listings From This Author"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:5
+msgid "Cheatin&#8217; uh?"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:46
+msgid "Options saved."
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:50
+msgid "Favorite Posts Configuration"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:63
+#: framework/functions/listings/favorite/tdp_fav-admin.php:85
+#: framework/functions/listings/favorite/tdp_fav-admin.php:234
+#: framework/functions/listings/favorite/tdp_fav-admin.php:255
+msgid "Click to open/close"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:66
+msgid "Do you use it ?"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:88
+msgid "Options"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:93
+msgid "Only <strong>registered users</strong> can favorite"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:97
+msgid "Auto show favorite link"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:109
+msgid "Before Link Image"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:140
+msgid "Favorite post per page"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:146
+msgid "Most favorited posts statics"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:171
+#: framework/functions/listings/favorite/tdp_fav-admin.php:226
+#: framework/functions/listings/favorite/tdp_fav-admin.php:248
+msgid "Update options &raquo;"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:183
+msgid "Label Settings"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:189
+msgid "Text for add link"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:192
+msgid "Text for added"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:196
+msgid "Text for remove link"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:199
+msgid "Text for removed"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:205
+msgid "Text for clear link"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:208
+msgid "Text for cleared"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:211
+msgid "Text for favorites are empty"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:214
+msgid "Text for [remove] link"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:217
+msgid "Text for favorites saved to cookies"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:220
+msgid "Text for \"only registered users can favorite\" error message"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:237
+msgid "Advanced Settings"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-admin.php:258
+msgid "Help"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-page-template.php:1
+msgid "Favorites"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-page-template.php:6
+msgid "Listing Name"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-page-template.php:7
+msgid "Actions"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-page-template.php:36
+msgid "No Favorites Yet"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-widgets.php:29
+#: framework/functions/listings/favorite/tdp_fav-widgets.php:82
+msgid "Title:"
+msgstr ""
+
+#: framework/functions/listings/favorite/tdp_fav-widgets.php:34
+#: framework/functions/listings/favorite/tdp_fav-widgets.php:87
+msgid "Number of posts to show:"
+msgstr ""
+
+#: framework/functions/listings/favorite/wp-favorite-posts.php:22
+msgid "All Favorites Removed"
+msgstr ""
+
+#: framework/functions/listings/favorite/wp-favorite-posts.php:109
+#: framework/functions/listings/favorite/wp-favorite-posts.php:113
+msgid "Remove Favorite"
+msgstr ""
+
+#: framework/functions/listings/favorite/wp-favorite-posts.php:327
+msgid "Remove From Favorites"
+msgstr ""
+
+#: framework/functions/listings/favorite/wp-favorite-posts.php:335
+msgid "Remove All Favorites"
+msgstr ""
+
+#: includes/custom-tabs.php:88 includes/custom-tabs.php:195
+#: includes/custom-tabs.php:309 includes/default-tabs.php:154
+#: includes/default-tabs.php:262
+msgid "Submit your featured listing &raquo;"
+msgstr ""
+
+#: includes/custom-tabs.php:171 includes/custom-tabs.php:285
+#: includes/custom-tabs.php:394 includes/default-tabs.php:238
+#: includes/default-tabs.php:344 includes/popup-image.php:20
+#: includes/popup-image.php:24
+msgid "Read More &raquo;"
+msgstr ""
+
+#: includes/custom-tabs.php:420 includes/default-tabs.php:53
+msgid ""
+"This is the user area here you can have a quick overwiew of your profile and "
+"manange your listings."
+msgstr ""
+
+#: includes/custom-tabs.php:424 includes/default-tabs.php:57
+msgid "Your Membership is:"
+msgstr ""
+
+#: includes/custom-tabs.php:426 includes/default-tabs.php:59
+#, php-format
+msgid "You can still post %s more listings"
+msgstr ""
+
+#: includes/custom-tabs.php:428 includes/default-tabs.php:61
+msgid "Membership Information:"
+msgstr ""
+
+#: includes/custom-tabs.php:434 includes/default-tabs.php:67
+msgid ""
+"It seems that you don't a membership, please register for a membership by "
+"clicking the link below here"
+msgstr ""
+
+#: includes/custom-tabs.php:438 includes/default-tabs.php:71
+msgid "Register For A Membership"
+msgstr ""
+
+#: includes/custom-tabs.php:442 includes/default-tabs.php:75
+msgid "Visit Your Dashboard &raquo;"
+msgstr ""
+
+#: includes/custom-tabs.php:447 includes/default-tabs.php:80
+msgid "Logout"
+msgstr ""
+
+#: includes/custom-tabs.php:452 includes/default-tabs.php:85
+msgid "This is our login area, if you have an account please login here."
+msgstr ""
+
+#: includes/custom-tabs.php:480 includes/default-tabs.php:113
+msgid "Register now if you don't have an account &raquo;"
+msgstr ""
+
+#: includes/custom-tabs.php:494 includes/default-tabs.php:128
+msgid "Lost Password ?"
+msgstr ""
+
+#: includes/custom-tabs.php:532 includes/default-tabs.php:381
+#: includes/search-listings.php:12
+msgid "Search Listings"
+msgstr ""
+
+#: includes/custom-tabs.php:533 includes/default-tabs.php:382
+msgid "By Address"
+msgstr ""
+
+#: includes/custom-tabs.php:550 includes/default-tabs.php:399
+#: includes/search-listings.php:34
+msgid "Start Typing"
+msgstr ""
+
+#: includes/custom-tabs.php:551 includes/default-tabs.php:400
+#: includes/search-listings.php:35
+msgid "Enter an address, zipcode or city"
+msgstr ""
+
+#: includes/default-tabs.php:35
+msgid ""
+"Looks like the homepage content is empty, please add some content to the "
+"homepage."
+msgstr ""
+
+#: includes/default-tabs.php:47
+msgid "User Area"
+msgstr ""
+
+#: includes/default-tabs.php:148
+msgid "Featured Listings"
+msgstr ""
+
+#: includes/default-tabs.php:152 includes/default-tabs.php:260
+msgid ""
+"This is our list of premier destinations, lorem ipsum dolor sit amet, "
+"consectetuer adipiscing elit."
+msgstr ""
+
+#: includes/default-tabs.php:256
+msgid "Latest Listings"
+msgstr ""
+
+#: includes/default-tabs.php:362
+msgid "Listings Search"
+msgstr ""
+
+#: includes/default-tabs.php:366
+msgid "Are you looking for something special? Try looking through our listings"
+msgstr ""
+
+#: includes/featured-carousel.php:31
+msgid "Featured"
+msgstr ""
+
+#: includes/listing-drivingdirections.php:103
+msgid "From"
+msgstr ""
+
+#: includes/listing-drivingdirections.php:106
+msgid "Via (optional)"
+msgstr ""
+
+#: includes/listing-drivingdirections.php:111
+msgid "Travel Mode"
+msgstr ""
+
+#: includes/listing-drivingdirections.php:112
+msgid "Driving"
+msgstr ""
+
+#: includes/listing-drivingdirections.php:113
+msgid "Bicycling"
+msgstr ""
+
+#: includes/listing-drivingdirections.php:114
+msgid "Public Transport"
+msgstr ""
+
+#: includes/listing-drivingdirections.php:115
+msgid "Walking"
+msgstr ""
+
+#: includes/listing-tab1.php:15
+msgid "Address:"
+msgstr ""
+
+#: includes/listing-tab1.php:25
+msgid "GPS:"
+msgstr ""
+
+#: includes/listing-tab1.php:37
+msgid "Phone"
+msgstr ""
+
+#: includes/listing-tab1.php:47
+msgid "Mobile Phone"
+msgstr ""
+
+#: includes/listing-tab1.php:68
+msgid "Social Profiles"
+msgstr ""
+
+#: includes/listing-tab4.php:12
+msgid "Message Successfully Sent"
+msgstr ""
+
+#: includes/listing-tab4.php:22
+msgid "Your Name"
+msgstr ""
+
+#: includes/listing-tab4.php:31
+msgid "Friend Email Address"
+msgstr ""
+
+#: includes/listing-tab4.php:40
+msgid "Message For Your Friend"
+msgstr ""
+
+#: includes/listing-tab4.php:41
+msgid "Hey check this out: "
+msgstr ""
+
+#: includes/listing-tab4.php:48
+msgid "Send Message"
+msgstr ""
+
+#: includes/search-listings.php:14
+msgid "Search By Address"
+msgstr ""
+
+#: includes/theme-claimingform.php:3
+msgid "Claim This Listing ?"
+msgstr ""
+
+#: includes/theme-claimingform.php:12
+msgid "Your Full Name"
+msgstr ""
+
+#: includes/theme-claimingform.php:13
+msgid "Enter your full name."
+msgstr ""
+
+#: includes/theme-claimingform.php:18
+msgid "Your Email Address"
+msgstr ""
+
+#: includes/theme-claimingform.php:19
+msgid ""
+"Enter your email address, this is where we will send you a response for your "
+"claim."
+msgstr ""
+
+#: includes/theme-claimingform.php:24
+msgid "Your Phone Number"
+msgstr ""
+
+#: includes/theme-claimingform.php:25
+msgid "Enter your phone number (optional)"
+msgstr ""
+
+#: includes/theme-claimingform.php:30
+msgid "Listing Url"
+msgstr ""
+
+#: includes/theme-claimingform.php:31
+msgid "You are currently claiming the following listing"
+msgstr ""
+
+#: includes/theme-claimingform.php:36
+msgid "Your Message"
+msgstr ""
+
+#: includes/theme-claimingform.php:37
+msgid ""
+"Please enter a message and provide us more details about your business and "
+"why you would like to claim this listing."
+msgstr ""
+
+#: includes/theme-claimingform.php:42
+msgid "Submit Claim &raquo;"
+msgstr ""
+
+#: includes/theme-displaybar.php:11
+msgid "Grid View"
+msgstr ""
+
+#: includes/theme-displaybar.php:12
+msgid "List View"
+msgstr ""
+
+#: includes/theme-graph.php:23
+msgid "Recent Page Views:"
+msgstr ""
+
+#: includes/top-search.php:7
+msgid "Searching: "
+msgstr ""
+
+#: includes/top-search.php:7
+msgid "Searching all listings"
+msgstr ""
+
+#: includes/top-search.php:7
+msgid "listings found"
+msgstr ""
+
+#: includes/top-search.php:7
+msgid "listing found"
+msgstr ""
+
+#: includes/top-single.php:52
+msgid "Rating"
+msgstr ""
+
+#: includes/top-single.php:74
+msgid "- Not Rated Yet"
+msgstr ""

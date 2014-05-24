@@ -1,0 +1,5 @@
+/*************************** Theme Options ***************************/
+
+#gp-theme-options a[href="#5"] {
+display: block !important;
+}

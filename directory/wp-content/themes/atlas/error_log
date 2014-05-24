@@ -1,0 +1,1 @@
+[18-May-2014 18:14:00 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/azohub/public_html/directory/wp-content/themes/atlas/index.php on line 14

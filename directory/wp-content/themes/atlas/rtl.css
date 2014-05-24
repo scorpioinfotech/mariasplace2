@@ -1,0 +1,180 @@
+/*
+Theme Name: Atlas
+Theme URI: http://themesdepot.org
+Author: ThemesDepot
+Author URI: http://themesdepot.org
+Description: Set up an online directory portal of any type – companies, shops, restaurants, real estate, websites and so on in no time with Atlas.
+
+RTL Support
+*/
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+caption, th, td, #navigation-wrapper ul.sub-menu,
+.widget_calendar tfoot td#prev,
+#dashboard-table2 thead th, #dashboard-table tbody td,
+div.styled-table > table,
+div.styled-table > table > thead > tr > th,
+#loginform .login-remember, #tabs-listing, .search-form-tab, #search-popup h4, #wp-advanced-search .label-container  {
+    text-align: right;
+}
+
+.alignleft, .one_half, .one_third, .two_third, .two_fourth, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth,
+.widget.widget_tag_cloud a,
+.widget_calendar tfoot td,
+.blog-detail .related-posts li,
+#comments .nav-previous,
+.tab-nav,
+.featured-single,
+div.rating-cancel,div.star-rating,
+.efe-set-by,
+.list_carousel li,
+.prev,
+.pager,
+.gallery_carousel li,
+.wpas-radio-container label,
+.wpas-radio-container,
+#fcontactform label,
+#content-container .location_dl dt, #content-container .location_dl dd,
+#loginform .icheckbox_square-blue,
+.label-float label,
+#routeForm .iradio_square-blue, .hl > li, #tabs-listing > ul li a, .search-content .tab, .wpas-radio-container, .wpas-checkbox-container {
+    float: right;
+}
+
+.one_half, .one_third, .two_third, .two_fourth, .three_fourth, .one_fourth, .one_fifth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
+	margin-right: 0;
+}
+
+#navigation-wrapper .sf-menu li:hover ul,
+#navigation-wrapper .sf-menu li.sfHover ul,
+#author-info-wrapper #author-info, #search-popup .mfp-close {
+	right: 0;
+}
+
+#search-popup .mfp-close {
+	left: 0px !important;
+	right: auto !important;
+}
+
+#navigation-wrapper ul.sf-menu li li:hover ul,
+#navigation-wrapper ul.sf-menu li li.sfHover ul, 
+#navigation-wrapper  ul.sf-menu li li li:hover ul,
+#navigation-wrapper ul.sf-menu li li li.sfHover ul {
+	right: 10em;
+	left: 0em;
+}
+
+#author-info-wrapper #author-info .avatar {
+	right: 0;
+	left: auto;
+	float: right;
+}
+
+.avatar, .marker-wrapper, #the-map-overlay {
+	left: auto;
+	right: 0;
+}
+
+.commenter, .comment-reply {
+	left: auto;
+	right: 90px;
+}
+
+.marker-wrapper span.icon-down-dir {
+	left:auto;
+	right: 200px;
+}
+
+#home-sidebar {
+	left: auto;
+	right: 0px;
+}
+
+.last {
+	clear:left;
+}
+
+#navigation-wrapper, #top-socials, .social-nav-list, #right-counter, #bd-button {
+	text-align: left;
+}
+
+.item-rating-container {
+	margin-right: 27px !important;
+}
+
+.item-content {
+	margin-right: 39px;
+}
+
+#navigation-wrapper ul li:first-child a {
+	border-left: none;
+}
+
+#navigation-wrapper ul.sub-menu li a:after {
+	float: left;
+}
+.tab-nav {
+	margin-right: -1px;
+}
+
+.tab-content {
+	padding: 24px 86px 20px 20px;
+}
+
+.tab-content.listings-tab {
+padding-bottom: 170px !important;
+padding-left: 0px !important;
+padding-right: 63px !important;
+}
+
+
+.accordion .accordion-title a:after {
+	float: left;
+}
+
+#sidebar-wrapper {
+	margin-right: 44px !important;
+}
+
+.comment-content p {
+margin-right: 28px;
+}
+
+.wpas-radio-container label {
+	padding-right: 28px;
+}
+
+.tab-nav li.ui-state-active:after {
+	display: none !important;
+}
+
+.toggle-button {
+	margin-top: 325px;
+}
+
+#open-search {
+	margin-top: 375px;
+}
+
+#open-search, .toggle-button {
+	left: 0px;
+}
+
+#home-sidebar .tab {
+	float: right !important;
+}
+
+.wpas-radio-container, .wpas-checkbox-container {
+	margin-left: 20px !important;
+	margin-right: 0px !important; 
+}
+
+.marker-content .close {
+	right: auto !important;
+	left:10px !important;
+}
+

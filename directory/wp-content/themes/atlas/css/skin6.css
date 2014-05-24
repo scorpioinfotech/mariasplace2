@@ -1,0 +1,71 @@
+#header-container {
+    border-top: 1px solid #f5bc37;
+    background-color: #f1b11e;
+    background-repeat: repeat-x;
+	  /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#f1b11e), to(#d69501));
+	  /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #f1b11e, #d69501);
+	  /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #f1b11e, #d69501);
+	  /* IE 10 */
+    background: -ms-linear-gradient(top, #f1b11e, #d69501);
+	  /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #f1b11e, #d69501);
+    border-bottom: 1px solid #d79a10;
+    min-height: 80px;
+    display: block;
+
+
+
+	position: relative;
+}
+
+#header-border {
+    border-top: 1px solid #ab7700;
+    background-color: #be8400;
+    background-repeat: repeat-x;
+	  /* Safari 4-5, Chrome 1-9 */
+    background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#be8400), to(#be8400));
+	  /* Safari 5.1, Chrome 10+ */
+    background: -webkit-linear-gradient(top, #be8400, #be8400);
+	  /* Firefox 3.6+ */
+    background: -moz-linear-gradient(top, #be8400, #be8400);
+	  /* IE 10 */
+    background: -ms-linear-gradient(top, #be8400, #be8400);
+	  /* Opera 11.10+ */
+    background: -o-linear-gradient(top, #be8400, #be8400);
+
+    height: 3px;
+    display: block;
+
+        -webkit-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, .5);
+	-moz-box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, .5);
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, .5);
+
+    position: relative;
+    z-index: 150;
+
+}
+
+/* BG */
+figure:hover .overlay .thumb-info, #sidebar-wrapper .sep, .link-wrapper, .marker-title, .cbp-vm-view-grid .single-image figure .thumb-info, .featured-star, #comments.reviews-comments #reply-title, .stats-rating, #search-popup h4, #front-login h1, .toggle-button:hover, .toggle-activator.hello-im-hidden .toggle-button, #open-search:hover {
+    background: #be8400
+}
+
+/* BDC */
+
+input:focus, textarea:focus, form.search-form > fieldset.has-focus, #content-container .featured-listing, #comments.reviews-comments #reply-title  {
+    border-color:#be8400;
+}
+
+/* C */
+.widget_tdp_listings_details li span, .tab-lister i, a.action-button span, a {
+    color:#be8400;
+}
+
+#content-container .featured-listing {
+-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(0, 0, 0, 0.6);
+-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(0, 0, 0, 0.6);
+box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(0, 0, 0, 0.6);
+}

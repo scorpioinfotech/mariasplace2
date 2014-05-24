@@ -1,0 +1,350 @@
+/* admin */
+.helper-hovered {
+	background-color: #dd8a90;
+}
+/* end admin */
+
+/* tour control */
+.tourcontrols{
+	position:fixed;
+	top:20px;
+	right:-300px;
+	width:300px;
+	background:#F1F1F1;
+	color:#4e4e4e;
+	font-size: 18px;
+	padding: 7px 10px 7px 10px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	font-weight: bold;
+	z-index:9999999;
+	line-height: 1.2;
+}
+
+.tourcontrols a:hover{
+	background-color: #EAF2FA;
+	color:#333333;
+}
+
+.tour-intro {
+	margin:0 0 15px;
+	width:280px;
+}
+
+.tour-close{
+	position:absolute;
+	top:6px;
+	left:7px;
+	width:16px;
+	height:16px;
+	cursor:pointer;
+	background:#F1F1F1 url(../../skins/default/images/btn_close.png) no-repeat center center;
+	background-color:transparent;
+	background-repeat:no-repeat;
+	background-position:center;	
+}
+
+.tourcontrols p{
+	padding:10px;
+}
+
+.tour-clear {
+	clear:both;
+}
+/* control tour items */
+.tour-option {
+	display:block;
+	width:100%;
+}
+
+.tour-option a{
+	font-size:11px;
+	color:#21759b;
+	cursor:pointer;
+	font-weight:normal;
+	text-decoration:none;
+	margin:10px;
+}
+
+.tourcontrols .tour-options {
+	font-size:12px;
+	color:#21759b;
+	cursor:pointer;
+	font-weight:normal;
+	text-decoration:none;
+	margin:10px;
+}
+
+.tourcontrols .tour-option a {
+	text-decoration:none;
+	font-size:12px;
+}
+
+.tourcontrols .tour-option a:hover {
+	background-color: #EAF2FA;
+	color:#333333;
+	padding: 5px 10px 5px 2px;
+}
+
+.tour-nav{
+	padding:10px 0 2px 0;
+	clear:both;
+	width:100%;
+	float:left;
+	position:relative;
+}
+.holder-button {
+	float:right;
+	height:16px;
+	width:16px;
+	margin:0 0 0 4px;
+}
+.tour-button {
+	display:block;
+	width:16px;
+	height:16px;
+	background-color:transparent;
+	background-repeat:no-repeat;
+	background-position:center;
+	text-indent:-9999px;
+	border:0px;
+	box-shadow:none;
+	-webkit-box-shadow:none;
+	-moz-box-shadow:none;
+	position:relative;
+	cursor:pointer;
+}
+
+#add-tour-button {
+	background-image:url(../../skins/default/images/add_tour_slide.png);
+	float:right;
+}
+
+.tour-option-hide {
+	padding:5px;
+	font-size:11px;
+}
+/* ------------------------ DEFAULT (GREY SKIN) ------------------------ */
+.default.tourcontrols {
+	border: 1px solid #E6E6E6;
+	background-color:#F1F1F1;
+}
+
+.default .tour-option-hide,
+.default .tour-option a {
+	color:#21759b;
+}
+.default .tour-intro { 
+	color:#333333;
+}
+
+/* ------ DEFAULT (GREY) SKIN BUTTONS ----- */
+.default a.tour-button:hover{
+	background-color:#F1F1F1;
+}
+.default .tour-close {
+	background-image:url(../../skins/default/images/btn_close.png);
+}
+.default .tour-nav #prevstep {
+	background-image:url(../../skins/default/images/btn_previous.png);
+}
+.default .tour-nav #nextstep {
+	background-image:url(../../skins/default/images/btn_next.png);
+}
+.default .tour-nav #restarttour {
+	background-image:url(../../skins/default/images/btn_restart.png);
+}
+.default .tour-nav #endtour {
+	background-image:url(../../skins/default/images/btn_stop.png);
+}
+
+/* ------------------------ BLACK SKIN ------------------------ */
+.black.tourcontrols {
+	border: 0px solid #000000;
+	background-color:#000000;
+}
+
+.black .tour-option-hide,
+.black .tour-option a {
+	color:#FFFFFF;
+}
+.black .tour-option a:hover {
+	color:#CDCDCD;
+	background-color:#000000;
+}
+.black .tour-intro { 
+	color:#FFFFFF;
+}
+
+/* ------ BLACK SKIN BUTTONS ----- */
+.black a.tour-button:hover{
+	background-color:#000;
+}
+.black .tour-close {
+	background-image:url(../../skins/black/images/btn_close_black.png);
+}
+.black .tour-nav #prevstep {
+	background-image:url(../../skins/black/images/btn_previous_black.png);
+}
+.black .tour-nav #nextstep {
+	background-image:url(../../skins/black/images/btn_next_black.png);
+}
+.black .tour-nav #restarttour {
+	background-image:url(../../skins/black/images/btn_restart_black.png);
+}
+.black .tour-nav #endtour {
+	background-image:url(../../skins/black/images/btn_stop_black.png);
+}
+
+/* ------------------------ GREEN SKIN ------------------------ */
+.green.tourcontrols {
+	border: 0px solid #009952;
+	background-color:#009952;
+}
+
+.green .tour-option-hide,
+.green .tour-option a {
+	color:#FFFFFF;
+}
+.green .tour-option a:hover {
+	color:#CDCDCD;
+	background-color:#009952;
+}
+
+.green .tour-intro { 
+color:#FFFFFF;
+}
+
+/* ------ GREEN SKIN BUTTONS ----- */
+.green a.tour-button:hover{
+	background-color:#009952;
+}
+.green .tour-close {
+	background-image:url(../../skins/green/images/btn_close_green.png);
+}
+.green .tour-nav #prevstep {
+	background-image:url(../../skins/green/images/btn_previous_green.png);
+}
+.green .tour-nav #nextstep {
+	background-image:url(../../skins/green/images/btn_next_green.png);
+}
+.green .tour-nav #restarttour {
+	background-image:url(../../skins/green/images/btn_restart_green.png);
+}
+.green .tour-nav #endtour {
+	background-image:url(../../skins/green/images/btn_stop_green.png);
+}
+
+/* ------------------------ BLUE SKIN ------------------------ */
+.blue.tourcontrols {
+	border: 0px solid #005B99;
+	background-color:#005B99;
+}
+
+.blue .tour-option-hide,
+.blue .tour-option a {
+	color:#FFFFFF;
+}
+.blue .tour-option a:hover {
+	color:#CDCDCD;
+	background-color:#005B99;
+}
+.blue .tour-intro { 
+color:#FFFFFF;
+}
+
+/* ------ BLUE SKIN BUTTONS ----- */
+.blue a.tour-button:hover{
+	background-color:#005B99;
+}
+.blue .tour-close {
+	background-image:url(../../skins/blue/images/btn_close_blue.png);
+}
+.blue .tour-nav #prevstep {
+	background-image:url(../../skins/blue/images/btn_previous_blue.png);
+}
+.blue .tour-nav #nextstep {
+	background-image:url(../../skins/blue/images/btn_next_blue.png);
+}
+.blue .tour-nav #restarttour {
+	background-image:url(../../skins/blue/images/btn_restart_blue.png);
+}
+.blue .tour-nav #endtour {
+	background-image:url(../../skins/blue/images/btn_stop_blue.png);
+}
+
+/* ------------------------ PURPLE SKIN ------------------------ */
+.purple.tourcontrols {
+	border: 1px solid #3D0099;
+	background-color:#3D0099;
+}
+
+.purple .tour-option-hide,
+.purple .tour-option a {
+	color:#FFFFFF;
+}
+.purple .tour-option a:hover {
+	color:#CDCDCD;
+	background-color:#3D0099;
+}
+.purple .tour-intro { 
+color:#FFFFFF;
+}
+
+/* ------ PURPLE SKIN BUTTONS ----- */
+.purple a.tour-button:hover{
+	background-color:#3D0099;
+}
+.purple .tour-close {
+	background-image:url(../../skins/purple/images/btn_close_purple.png);
+}
+.purple .tour-nav #prevstep {
+	background-image:url(../../skins/purple/images/btn_previous_purple.png);
+}
+.purple .tour-nav #nextstep {
+	background-image:url(../../skins/purple/images/btn_next_purple.png);
+}
+.purple a#restarttour {
+	background-image:url(../../skins/purple/images/btn_restart_purple.png);
+}
+.purple a#endtour {
+	background-image:url(../../skins/purple/images/btn_stop_purple.png);
+}
+
+/* ------------------------ RED SKIN ------------------------ */
+.red.tourcontrols {
+	border: 0px solid #AB0022;
+	background-color:#AB0022;
+}
+.red .tour-option-hide,
+.red .tour-option a {
+	color:#FFFFFF;
+}
+.red .tour-option a:hover {
+	color:#CDCDCD;
+	background-color:#ab0022;
+}
+.red .tour-intro { 
+color:#FFFFFF;
+}
+
+/* ------ RED SKIN BUTTONS ----- */
+.red a.tour-button:hover{
+	background-color:#AB0022;
+}
+.red .tour-close {
+	background-image:url(../../skins/red/images/btn_close_red.png);
+}
+.red .tour-nav #prevstep {
+	background-image:url(../../skins/red/images/btn_previous_red.png);
+}
+.red .tour-nav #nextstep {
+	background-image:url(../../skins/red/images/btn_next_red.png);
+}
+.red a#restarttour {
+	background-image:url(../../skins/red/images/btn_restart_red.png);
+}
+.red a#endtour {
+	background-image:url(../../skins/red/images/btn_stop_red.png);
+}

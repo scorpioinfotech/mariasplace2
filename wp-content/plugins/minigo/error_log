@@ -1,0 +1,1 @@
+[12-May-2014 01:00:07 America/Chicago] PHP Fatal error:  Call to undefined function plugin_dir_path() in /home/azohub/public_html/wp-content/plugins/minigo/minigo.php on line 33

@@ -1,0 +1,5 @@
+[25-Jan-2014 01:44:29 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/azohub/public_html/wp-content/themes/bounce/index.php on line 1
+[25-Jan-2014 08:58:08 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/azohub/public_html/wp-content/themes/bounce/index.php on line 1
+[30-Mar-2014 06:47:06 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/azohub/public_html/wp-content/themes/bounce/index.php on line 1
+[02-May-2014 07:29:11 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/azohub/public_html/wp-content/themes/bounce/index.php on line 1
+[15-May-2014 00:24:08 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/azohub/public_html/wp-content/themes/bounce/index.php on line 1

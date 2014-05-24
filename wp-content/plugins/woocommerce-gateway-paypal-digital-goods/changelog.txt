@@ -1,0 +1,105 @@
+*** PayPal Digital Goods Changelog ***
+
+2013.01.17 - version 2.4.1
+ * Tweak: add a filter for setting the start date: 'woocommerce_paypal_digital_goods_subscription_start_date'
+ * Fix: use correct cancellation return URL to avoid loading entire site in iframe when cancelling order at PayPal
+
+2013.01.08 - version 2.4
+ * Tweak: WooCommerce 2.1 compatibility
+ * Tweak: Charge any up-front payment, for initial billing period or sign-up fee, as an initial payment rather than part of the subscription to work around PayPal start date issues
+ * Tweak: add support & documentation links below plugin name
+ * Tweak: update CSS to improve compatability with WordPress 3.8
+ * Tweak: remove support for older versions of WooCommerce Subscriptions
+ * Tweak: remove support for versions of WooCommerce prior to 2.0
+ * Tweak: provide actual log file name on settings page (instead of just /logs/paypal-dg.txt)
+ * Tweak: improve cancellation flow by using WooCommerce's cancel order URL and making sure it's not HTML encoded
+
+2013.12.04 - version 2.3.4
+ * Tweak: use WordPress's locale for PayPal button & pay page language if it is supported by PayPal's LOCALECODE parameter. The list of supported locale's is here: https://developer.paypal.com/webapps/developer/docs/classic/api/merchant/SetExpressCheckout_API_Operation_NVP/
+ * Fix: occasional "Subscription start date should be greater than current date" error depending on the site's timezone
+ * Fix: correctly display error messages on return from PayPal
+
+2013.11.15 - version 2.3.3
+ * Tweak: cancel a subscription as soon as one payment fails (rather than retrying once) to avoid confusion for store managers
+
+2013.09.30 - version 2.3.2
+ * Tweak: update use of deprecated get_users_subscription() function
+ * Fix: Apply 'woocommerce_gateway_description' filter to description
+
+2013.07.23 - version 2.3.1
+ * Tweaked request
+
+2013.06.27 - version 2.3
+ * Update PayPal error messages to display with new WooCommerce error styles
+ * Fix bug when purchasing free and paid products in the same checkout
+
+2013.06.09 - version 2.2.8
+ * Fix trial period passed to PayPal when using different trial period to billing period
+
+2013.05.29 - version 2.2.7
+ * Fix potential duplicate subscription renewal orders when PayPal duplicates IPN requests
+
+2013.03.26 - version 2.2.6
+ * Fix potential PayPal IPN issues with WooCommerce 2.0.4, which no longer strips slashes in $_POST
+ * Prevent clogging WP-Cron with 'ppdg_check_subscription_status' jobs
+
+2013.03.18 - version 2.2.5
+ * Fix checkout form validation with missing fields in WC2.0
+
+2013.03.08 - version 2.2.4
+ * Help guides link to new docs.woothemes.com documentation site
+ * Fix ajax process payment bug on checkout leading to 404 thank you page with WC2.0+
+
+2013.02.14 - version 2.2.3
+ * WC 2.0 Compatibility
+ * Add notes to PayPal history when changing a subscription status to improve record keeping
+ * Handle Subscription suspension IPN requests (unfortunately there is no corresponding reactivation IPN request)
+ * Fix assorted warnings for IPN requests of subscriptions purchased at other stores that may be posted to this store
+ * Improve subscription status change order note messages
+ * Send Product SKU to PayPal as item number (instead of Product ID)
+
+2013.01.07 - version 2.2.2
+ * Update JS to work with lastest WC JSON structure (fix outputting JSON in error messages)
+
+2012.12.05 - version 2.2.1
+ * Updater
+
+2012.06.27 - version 2.2
+ * Updating to work with WooCommerce v1.6.5+
+ * Updating to work with Subscriptions v1.2
+
+2012.06.27 - version 2.1.1
+ * Fix text domain
+
+2012.06.27 - version 2.1
+ * Adding Subscription Trial Period Support
+ * Adding Subscription Suspension Support
+
+2012.06.21 - version 2.0
+ * Adding Subscription Support
+ * Adding Subscription Cancellation Support
+ * Implementing PayPal IPN support for subscriptions (assuming IPN URL set correctly on account)
+ * Updating deprecated class calls
+
+2012.06.18 - version 1.3
+ * Support for guest/credit card payments
+
+2012.05.02 - version 1.2
+ * Logging payment pending reasons on order
+ * Sending Order ID to PayPal as Invoice Number instead of order key (which is now sent as a custom field)
+ * Adding update_paypal_details() function to centralise storage of buyer's PayPal details on an order
+
+2012.05.02 - version 1.1.1
+ * Fixing currency bug
+
+2012.04.18 - version 1.1
+ * Accounting for orders with shipping price
+
+2012.03.02 - version 1.0.2
+ * Form validation fix
+
+2012.01.26 - version 1.0.1
+ * WC 1.4 Compatibility
+
+2012.01.19 - version 1.0
+ * First Release

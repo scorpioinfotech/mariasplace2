@@ -1,0 +1,28 @@
+*** Warranty Requests Changelog ***
+
+2013.11.10 - version 1.0.6
+ * Bug fix: CSV Import support missing meta details
+
+2013.10.29 - version 1.0.5
+ * Enhancement: Added {warranty_question} variable for email templates
+ * Bug fix: Fixed display of warranty request notes in the admin
+ * Enhancement: Support for CSV Import Suite - warranty_type, warranty, warranty_duration, warranty_unit, warranty_label
+ * Bug fix: Remove duplicate order number search
+
+2013.09.30 - version 1.0.4
+ * Bug fix: Button customizations weren't loading in frontend
+ * Enhancement: Ability to delete warranty requests/RMA from admin
+ * Bug fix: Ensure that warranties are only started at correct status 
+ * Bug fix: Add support for matching ID of warranty request to orders using sequential order number extension
+
+2013.09.17 - version 1.0.3
+ * Setting: Define on what statuses you want to display the warranty button to purchasers
+ 
+2013.09.10 - version 1.0.2
+ * Improvement: Hide individual product warranties on bundle purchases - show the bundles warranty only
+
+2013.08.08 - version 1.0.1
+ * Feature: Return item to stock from warranty interface
+
+2013.07.25 - version 1.0.0
+ * First release

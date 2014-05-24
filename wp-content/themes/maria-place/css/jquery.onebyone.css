@@ -1,0 +1,389 @@
+
+.buttonArea{
+    float: left;
+    left: 50%;
+    position: relative;            
+    top: 100%;
+	margin-top: -32px;	
+}                     
+.buttonCon{  
+    float: left;
+    left: -50%;
+    position: relative;        
+}
+.buttonCon .theButton {
+	display: block;
+	color: #B22222;
+	width: 20px;
+	height: 22px;
+	background: url(../images/circlebutton.png) no-repeat;
+	text-indent: -9999px;
+	border: 0;
+	margin-right: 3px;
+	float: left;
+}
+.buttonArea a.active {
+	background-position: 0 -22px;
+}             
+
+.arrowButton{    
+	cursor: pointer;  
+}            
+.arrowButton .prevArrow{
+	background:url(../images/prev.png) no-repeat; 
+	width: 40px;
+	height: 80px;      
+	position: absolute;
+	top: 170px;	 
+	left: 12px;        
+} 
+.arrowButton .nextArrow{                 
+	background: url(../images/next.png) no-repeat;
+	width: 40px;
+	height: 80px;
+	position: absolute;
+	top: 170px;
+	right: 12px;	          
+}   
+
+.animate0{
+   	-webkit-animation-duration: .6s;
+	-webkit-animation-delay: 0s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: .6s;
+	-moz-animation-delay: 0s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: .6s;
+	-ms-animation-delay: 0s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration: .6s;
+	animation-delay: 0s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;	          
+}         
+
+.animate1{
+   	-webkit-animation-duration: .6s;
+	-webkit-animation-delay: .2s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: .6s;
+	-moz-animation-delay: .2s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: .6s;
+	-ms-animation-delay: .2s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration: .6s;
+	animation-delay: .2s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;	          
+} 
+
+.animate2{
+   	-webkit-animation-duration: .6s;
+	-webkit-animation-delay: .4s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: .6s;
+	-moz-animation-delay: .4s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: .6s;
+	-ms-animation-delay: .4s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration: .6s;
+	animation-delay: .4s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;	          
+} 
+
+.animate3{
+   	-webkit-animation-duration: .6s;
+	-webkit-animation-delay: .6s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: .6s;
+	-moz-animation-delay: .6s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: .6s;
+	-ms-animation-delay: .6s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration: .6s;
+	animation-delay: .6s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;	          
+}   
+
+.animate4{
+   	-webkit-animation-duration: .6s;
+	-webkit-animation-delay: .8s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: .6s;
+	-moz-animation-delay: .8s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: .6s;
+	-ms-animation-delay: .8s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration: .6s;
+	animation-delay: .8s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;	          
+}  
+
+.animate5{
+   	-webkit-animation-duration: .6s;
+	-webkit-animation-delay: 1s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: .6s;
+	-moz-animation-delay: 1s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: .6s;
+	-ms-animation-delay: 1s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration: .6s;
+	animation-delay: 1s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;	          
+}    
+.animate6{
+   	-webkit-animation-duration: .6s;
+	-webkit-animation-delay: 1.2s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: .6s;
+	-moz-animation-delay: 1.2s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: .6s;
+	-ms-animation-delay: 1.2s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration: .6s;
+	animation-delay: 1.2s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;	          
+}    
+.animate7{
+   	-webkit-animation-duration: .6s;
+	-webkit-animation-delay: 1.4s;
+	-webkit-animation-timing-function: ease;
+	-webkit-animation-fill-mode: both;
+	-moz-animation-duration: .6s;
+	-moz-animation-delay: 1.4s;
+	-moz-animation-timing-function: ease;
+	-moz-animation-fill-mode: both;
+	-ms-animation-duration: .6s;
+	-ms-animation-delay: 1.4s;
+	-ms-animation-timing-function: ease;
+	-ms-animation-fill-mode: both;
+	animation-duration: .6s;
+	animation-delay: 1.4s;
+	animation-timing-function: ease;
+	animation-fill-mode: both;	          
+}    
+
+
+/* ................ FOR RESPONSIVE EXAMPLE .................*/
+
+
+#banner{
+	position: absolute;
+}
+
+.oneByOne1{
+	margin-top: 0px;
+	width: 640px;
+	height: 360px;   
+	background: #EFEFEF url(../images/assets/paven.png) repeat;    
+	position: relative;
+	overflow: hidden;  	
+}   
+
+#banner .oneByOne_item{
+	position: absolute;
+	width: 640px;
+	height: 360px;  
+	overflow: hidden;  
+	display: none;
+}         
+
+#exampleline{
+	position: relative;
+	margin: 5% 0 0 0;
+}
+
+
+/* change the width of the slider in your own responsive media query */
+@media only screen and (min-width: 960px) {
+	.oneByOne1, #banner .oneByOne_item, #wrapper, #exampleline img{
+		width: 640px;
+	}
+}
+
+@media screen and (min-width: 850px) and (max-width: 959px) {
+	.oneByOne1, #banner .oneByOne_item, #wrapper, #exampleline img{ width: 620px; }
+}
+
+
+@media screen and (min-width: 849px) and (max-width: 767px) {
+	.oneByOne1, #banner .oneByOne_item, #wrapper, #exampleline img{ width: 620px; }
+}
+
+
+
+@media only screen and (min-width: 767px) and (max-width: 849px) {
+	.oneByOne1, #banner .oneByOne_item, #wrapper, #exampleline img{
+		width: 620px;
+	}
+}
+
+@media screen and (min-width: 481px) and (max-width: 767px) {
+	.oneByOne1, #banner .oneByOne_item, #wrapper, #exampleline img{
+		width: 482px;
+	}	
+}
+
+
+
+@media screen and (min-width: 361px) and (max-width: 480px) {
+	.oneByOne1, #banner .oneByOne_item, #wrapper, #exampleline img{
+		width: 373px;
+	}	
+}
+
+
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+	.oneByOne1, #banner .oneByOne_item, #wrapper, #exampleline img{
+		width: 279px;
+	}
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
+	.oneByOne1, #banner .oneByOne_item, #wrapper, #exampleline img{
+		width: 260px;
+	}
+}
+
+
+
+
+
+
+                      
+#banner .oneByOne_item span{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", helvetica, verdana, arial, sans-serif;
+}                                                                                              
+
+#banner .oneByOne_item a{
+	text-decoration: none;
+	color: #B22222;
+}
+              
+
+
+#banner .oneByOne_item span.slide2Txt1{ 
+  	position: relative;
+	float: left;
+	margin: 10% 2% 0 20%;
+	color: #9ACD32;	
+	font-size: 24px;  
+	background: #FFFFFF;
+	padding: 8px;             
+}
+ 
+#banner .oneByOne_item span.slide2Txt2{ 
+  	position: relative;
+	clear: left;
+	float: left;
+	margin: 6px 2% 0 20%;
+	color: #666666;	
+	font-size: 14px;  
+	background: #FFFFFF;
+	padding: 8px;             
+}   
+
+#banner .oneByOne_item span.slide2Txt3{ 
+  	position: relative;
+	clear: left;
+	float: left;
+	margin: 6px 2% 0 20%;
+	color: #666666;	
+	font-size: 12px;  
+	background: #FFFFFF;
+	padding: 8px;             
+}     
+                    
+  
+
+#banner .oneByOne_item img.bigImage{ 
+	position: absolute;
+	top: 0; 
+	left: 0;
+	width: 100%;
+	border-radius:3px;
+
+}
+
+#banner .oneByOne_item span.slide5Txt1{ 
+  	position: relative;
+	float: left;
+	margin: 10% 0 0 40%;
+	color: #9ACD32;	
+	font-size: 24px;  
+	background: #FFFFFF;
+	padding: 8px;             
+}
+ 
+#banner .oneByOne_item span.slide5Txt2{ 
+  	position: relative;
+	clear: left;
+	float: left;
+	margin: 12px 0 0 40%;
+	color: #666666;	
+	font-size: 12px;  
+	background: #FFFFFF;
+	padding: 8px;             
+}
+
+
+
+
+/* ................ FOR RESPONSIVE EXAMPLE .................*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

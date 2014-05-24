@@ -1,0 +1,60 @@
+# Copyright (C) 2013 
+# This file is distributed under the same license as the  package.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/breadcrumbs-everywhere\n"
+"POT-Creation-Date: 2013-12-18 20:34:46+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-12-19 17:45-0700\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 1.6.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: it\n"
+
+#: includes/crumbs-admin.php:22 includes/crumbs-admin.php:62
+msgid "Breadcrumbs Everywhere"
+msgstr "Pangrattato Ovunque"
+
+#: includes/crumbs-admin.php:47 includes/crumbs-core.php:48
+msgid "Home"
+msgstr "Home"
+
+#: includes/crumbs-admin.php:52 includes/crumbs-core.php:54
+msgid "Blog"
+msgstr "Blog"
+
+#: includes/crumbs-admin.php:57 includes/crumbs-core.php:61
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: includes/crumbs-admin.php:64
+msgid "Settings Updated."
+msgstr "Impostazioni aggiornate."
+
+#: includes/crumbs-admin.php:78
+msgid "Text for the Home link:"
+msgstr "Testo per il collegamento Home:"
+
+#: includes/crumbs-admin.php:82
+msgid "Text for the Blog link:"
+msgstr "Testo per il collegamento Blog:"
+
+#: includes/crumbs-admin.php:86
+msgid "Breadcrumb divider:"
+msgstr "Divisore di pangrattato:"
+
+#: includes/crumbs-admin.php:92
+msgid "Save Settings"
+msgstr "Salva Impostazioni"
+
+#: includes/crumbs-admin.php:94
+msgid "That's it!"
+msgstr "Tutto qui!"
+
+#: includes/crumbs-core.php:147 includes/crumbs-core.php:357
+msgid "Page"
+msgstr "Pagina"

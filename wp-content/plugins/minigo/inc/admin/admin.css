@@ -1,0 +1,9 @@
+#wpadminbar #wp-admin-bar-premiothemes-comingsoon-notice a {
+    text-shadow: none;
+    background: #ff542c;
+    color: #fff;
+}
+
+#wpadminbar #wp-admin-bar-premiothemes-comingsoon-notice a:hover {
+    color: #222;
+}

@@ -1,0 +1,720 @@
+/*iPad Landscape*/
+@media screen and (max-width: 1024px), screen and (max-device-width: 1024px), screen and (max-width: 1200px)  {
+	.wrapper{
+		width: 960px;
+	}
+
+    .item-content {
+    }
+
+    body.archive .single-image, body.archive .single-image img {
+        width: 170px !important;
+        height: 182px !important;
+    }
+
+    body.archive .overlay {
+        display: none;
+    }
+
+    #display-bar #layout-changer a:first-child {
+        padding-right: 0px !important;
+    }
+
+    #display-bar #layout-changer a {
+        border: none;
+    }
+
+    #display-bar #layout-changer {
+        border-right: none;
+    }
+
+}
+
+/*iPad Portrait*/
+@media handheld and (max-width: 767px), screen and (max-device-width: 750px), screen and (max-width: 960px)  {
+
+    #mobile-menu {
+        display: block;
+    }
+
+	.wrapper{
+		width: 600px;
+	}
+
+	.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fourth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth {
+		float: none !important;
+		margin: 0 !important;
+		width: auto !important;
+	}
+
+	#navigation-wrapper, #top-bar, #top-footer, #home-sidebar, .toggle-activator, body.archive #header-map, #layout-changer, div.single-image, .item-rating-container, #bd-button, #hide-mobile {
+		display: none !important;
+	}
+
+	#logo-wrapper {
+		text-align: center;
+	}
+
+	#listing-brief {
+		padding:10px 0px;
+	}
+
+	#listing-brief h1 {
+		font-size: 22px;
+	}
+
+	#bottom-footer .widget-title, #right-counter{
+		text-align: left;
+	}
+
+	#bottom-footer .widget {
+		margin-bottom: 20px;
+	}
+
+	#home-outer-wrap {
+		margin-left: 0px;
+	}
+
+	#open-search {
+		font-size: 11px;
+		padding: 6px;
+		position: absolute;
+		margin-left: 29px;
+		margin-top: 141px;
+	}
+
+	.marker-wrapper img{
+		display: none;
+	}
+
+	.marker-wrapper {
+		width: 200px;
+        margin-left:120px
+	}
+
+	.marker-wrapper span.icon-down-dir {
+		left: 80px;
+	}
+
+    #page-wrapper {
+        padding-top:40px;
+    }
+
+    div.taxonomy-view-list {
+    	padding: 0px 20px 20px 20px;
+    }
+
+    ul.stats li {
+    	display: block;
+    	text-align: center;
+    	font-size: 13px;
+    	margin-top: 10px;
+    }
+
+     ul.stats {
+        margin-top:10px;
+    }
+    
+    ul.stats li {
+    	display: block;
+    	text-align: center;
+    	font-size: 13px;
+    }
+    
+    ul.stats li:last-child {
+        margin-top:10px;
+    }
+
+    body.single .flexslider .slides img {
+    	width: 95%;
+        margin-bottom:-30px
+    }
+
+    .mds-tabs-wrapper dt {
+    	float: none;
+    	display: block;
+    }
+
+    .mds-tabs-wrapper dd {
+		margin-top: 77px;
+	}
+
+    li.address {
+    	width: 228px;
+		  overflow: hidden;
+		  text-overflow: ellipsis;
+    }
+
+    #content-container ~ #sidebar-wrapper {
+    	margin-top: 130px !important;
+    }
+
+    #fcontactform textarea {
+    	width: 90%;
+    }
+
+    div.upme-right {
+    	float: none;
+    }
+
+    #display-mobile {
+    	display: block;
+    }
+
+    .teaser {
+    	margin-bottom: 20px;
+    }
+
+    .callout-button {
+    	clear: both;
+    	margin-bottom: 20px !important;
+    }
+
+    .pricing-table .plan {
+    	float: none !important;
+		width: 100% !important;
+		margin-bottom: 30px !important;
+    }
+
+    #respond textarea, #respond input[type=text] {
+        width: 87%;
+    }
+
+    #single-map {
+        width:100%;
+    }
+
+     ul.stats li.starpos {
+        display: inline-block !important;
+    }
+    .multi-rating-wrap {
+        position: static;
+    }
+    #comments.normal-comments #submit {
+        width: 99%
+    }
+    .hl > li {
+        float: none !important;
+    }
+    #content-container .acf-tab-group li {
+        margin: 0 8px 0 0 !important;
+    }
+    #content-container .acf-tab-group {
+        height: auto !important;
+    }
+    #content-container .acf_postbox input[type=text] {
+        width: 95% !important;
+    }
+    span.mceEditor, td.remove {
+        display: none !important;
+    }
+    textarea.wp-editor-area {
+        display: block !important;
+    }
+    #acf-add_promotions_to_your_listing td.label, #acf-add_promotions_to_your_listing td.label + td {
+        display: block;
+        width: 87%;
+    }
+    #content-container #acf-add_promotions_to_your_listing input[type=text] {
+        width: 94% !important;
+    }
+}
+
+/*iPhone Landscape*/
+@media screen and (max-width: 480px), screen and (max-device-width: 480px), screen and (max-width: 580px)  {
+
+    #mobile-menu {
+        display: block;
+    }
+	
+	.wrapper{
+		width: 300px;
+	}
+
+	.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fourth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth, .tdp_two_third, .tdp_one_third {
+		float: none !important;
+		margin: 0 !important;
+		width: auto !important;
+	}
+
+	#navigation-wrapper, #top-bar, #top-footer, #home-sidebar, .toggle-activator, body.archive #header-map, #layout-changer, div.single-image, .item-rating-container, #bd-button, #hide-mobile, #query-changer {
+		display: none !important;
+	}
+
+	#logo-wrapper {
+		text-align: center;
+	}
+
+	#listing-brief {
+		padding:10px 0px;
+	}
+
+	#listing-brief h1 {
+		font-size: 22px;
+	}
+
+	#bottom-footer .widget-title, #right-counter{
+		text-align: left;
+	}
+
+	#bottom-footer .widget {
+		margin-bottom: 20px;
+	}
+
+	#home-outer-wrap {
+		margin-left: 0px;
+	}
+
+	#open-search {
+		font-size: 11px;
+		padding: 6px;
+		position: absolute;
+		margin-left: 29px;
+		margin-top: 141px;
+	}
+
+	.marker-wrapper img{
+		display: none;
+	}
+
+	.marker-wrapper {
+		width: 200px;
+        margin-left:120px
+	}
+
+	.marker-wrapper span.icon-down-dir {
+		left: 80px;
+	}
+
+    #page-wrapper {
+        padding-top:40px;
+    }
+
+    div.taxonomy-view-list {
+    	padding: 0px 20px 20px 20px;
+    }
+
+    ul.stats li {
+    	display: block;
+    	text-align: center;
+    	font-size: 13px;
+    	margin-top: 10px;
+    }
+
+     ul.stats {
+        margin-top:10px;
+    }
+    
+    ul.stats li {
+    	display: block;
+    	text-align: center;
+    	font-size: 13px;
+    }
+    
+    ul.stats li:last-child {
+        margin-top:10px;
+    }
+
+    body.single .flexslider .slides img {
+    	width: 95%;
+        margin-bottom:-30px
+    }
+
+    .mds-tabs-wrapper dt {
+    	float: none;
+    	display: block;
+    }
+
+    .mds-tabs-wrapper dd {
+		margin-top: 77px;
+	}
+
+    li.address {
+    	width: 228px;
+		  overflow: hidden;
+		  text-overflow: ellipsis;
+    }
+
+    #content-container ~ #sidebar-wrapper {
+    	margin-top: 130px !important;
+    }
+
+    #fcontactform textarea {
+    	width: 90%;
+    }
+
+    div.upme-right {
+    	float: none;
+    }
+
+    #display-mobile {
+    	display: block;
+    }
+
+    .teaser {
+    	margin-bottom: 20px;
+    }
+
+    .callout-button {
+    	clear: both;
+    	margin-bottom: 20px !important;
+    }
+
+    .pricing-table .plan {
+    	float: none !important;
+		width: 100% !important;
+		margin-bottom: 30px !important;
+    }
+
+    #respond textarea, #respond input[type=text] {
+        width: 87%;
+    }
+
+    #single-map {
+        width:100%;
+    }
+
+    #tabs-listing ul li, #tabs-listing ul li a {
+        float: none;
+        display: block;
+    }
+
+     ul.stats li.starpos {
+        display: inline-block !important;
+    }
+
+    #front-login {
+        width: auto !important;
+    }
+
+    #front-login input[type=text], #front-login input[type=password] {
+        width: 90% !important;
+    }
+
+    .wrap-links a {
+        width: 83.5% !important;
+    } 
+
+    .form-table th, .fields-lenght span.description, p.indicator-hint {
+        display: block !important;
+    }
+
+    .fields-lenght input, .fields-lenght textarea, .fields-lenght span.description, p.indicator-hint  {
+        width: 69% !important;
+    }
+
+    .tdp-right, .tdp_thead-msg, .tdp-left {
+        float: none !important;
+        text-align: left;
+        margin-bottom: 0px !important;
+    }
+
+    div.tdp-head {
+        padding-bottom: 10px;
+    }
+
+    form.tdp_form label {
+        float: none;
+    }
+
+    form.tdp_form div {
+        margin-bottom: 10px;
+    }
+
+    .tdp_asterisk {
+        display: none;
+    }
+    .multi-rating-wrap {
+        position: static;
+    }
+    #comments.normal-comments #submit {
+        width: 99%
+    }
+    .wpcf7-form input[type=text], .wpcf7-form select, .wpcf7-form input[type=email] {
+        width: 92%;
+    }
+    .wpcf7-form textarea {
+        width: 87%;
+    }
+    .hl > li {
+        float: none !important;
+    }
+    #content-container .acf-tab-group li {
+        margin: 0 8px 0 0 !important;
+    }
+    #content-container .acf-tab-group {
+        height: auto !important;
+    }
+    #content-container .acf_postbox input[type=text] {
+        width: 95% !important;
+    }
+    span.mceEditor, td.remove {
+        display: none !important;
+    }
+    textarea.wp-editor-area {
+        display: block !important;
+    }
+    #acf-add_promotions_to_your_listing td.label, #acf-add_promotions_to_your_listing td.label + td {
+        display: block;
+        width: 87%;
+    }
+    #content-container #acf-add_promotions_to_your_listing input[type=text] {
+        width: 94% !important;
+    }
+}
+
+/*iPhone Portrait*/
+@media screen and (max-width: 320px), screen and (max-device-width: 320px), screen and (max-width: 450px) {
+
+    #mobile-menu {
+        display: block;
+    }
+
+	.wrapper{
+		width: 280px;
+	}
+
+	.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fourth, .two_fifth, .three_fifth, .four_fifth, .one_sixth, .five_sixth, .tdp_two_third, .tdp_one_third {
+		float: none !important;
+		margin: 0 !important;
+		width: auto !important;
+	}
+
+	#navigation-wrapper, #top-bar, #top-footer, #home-sidebar, .toggle-activator, body.archive #header-map, #layout-changer, div.single-image, .item-rating-container, #bd-button, #hide-mobile, #query-changer {
+		display: none !important;
+	}
+
+	#logo-wrapper {
+		text-align: center;
+	}
+
+	#listing-brief {
+		padding:10px 0px;
+	}
+
+	#listing-brief h1 {
+		font-size: 22px;
+	}
+
+	#bottom-footer .widget-title, #right-counter{
+		text-align: left;
+	}
+
+	#bottom-footer .widget {
+		margin-bottom: 20px;
+	}
+
+	#home-outer-wrap {
+		margin-left: 0px;
+	}
+
+	#open-search {
+		font-size: 11px;
+		padding: 6px;
+		position: absolute;
+		margin-left: 29px;
+		margin-top: 141px;
+	}
+
+	.marker-wrapper img{
+		display: none;
+	}
+
+	.marker-wrapper {
+		width: 200px;
+        margin-left:120px
+	}
+
+	.marker-wrapper span.icon-down-dir {
+		left: 80px;
+	}
+
+    #page-wrapper {
+        padding-top:40px;
+    }
+
+    div.taxonomy-view-list {
+    	padding: 0px 20px 20px 20px;
+    }
+
+    ul.stats li {
+    	display: block;
+    	text-align: center;
+    	font-size: 13px;
+    	margin-top: 10px;
+    }
+
+     ul.stats {
+        margin-top:10px;
+    }
+    
+    ul.stats li {
+    	display: block;
+    	text-align: center;
+    	font-size: 13px;
+    }
+    
+    ul.stats li:last-child {
+        margin-top:10px;
+    }
+
+    body.single .flexslider .slides img {
+    	width: 95%;
+        margin-bottom:-30px
+    }
+
+    #tabs-listing ul li, #tabs-listing ul li a {
+    	float: none;
+    	display: block;
+    }
+
+    .mds-tabs-wrapper dd {
+		margin-top: 77px;
+	}
+
+    li.address {
+    	width: 228px;
+		  overflow: hidden;
+		  text-overflow: ellipsis;
+    }
+
+    #content-container ~ #sidebar-wrapper {
+    	margin-top: 130px !important;
+    }
+
+    #fcontactform textarea {
+    	width: 90%;
+    }
+
+    #respond textarea, #respond input[type=text] {
+        width: 87%;
+    }
+
+    div.upme-right {
+    	float: none;
+    }
+
+    #display-mobile {
+    	display: block;
+    }
+
+    .teaser {
+    	margin-bottom: 20px;
+    }
+
+    .callout-button {
+    	clear: both;
+    	margin-bottom: 20px !important;
+    }
+
+    .pricing-table .plan {
+    	float: none !important;
+		width: 100% !important;
+		margin-bottom: 30px !important;
+    }
+
+    .featured-single {
+        display: block !important;
+        width: 93%;
+        text-align: center;
+    }
+
+    #single-map {
+        width:100%;
+    }
+
+    ul.stats li.starpos {
+        display: inline-block !important;
+    }
+
+    #front-login {
+        width: auto !important;
+    }
+
+    #front-login input[type=text], #front-login input[type=password] {
+        width: 90% !important;
+    }
+
+    .wrap-links a {
+        width: 83.5% !important;
+    } 
+
+    .form-table th, .fields-lenght span.description, p.indicator-hint {
+        display: block !important;
+    }
+
+    .fields-lenght input, .fields-lenght textarea, .fields-lenght span.description, p.indicator-hint  {
+        width: 69% !important;
+    }
+
+    .tdp-right, .tdp_thead-msg, .tdp-left {
+        float: none !important;
+        text-align: left;
+        margin-bottom: 0px !important;
+    }
+
+    div.tdp-head {
+        padding-bottom: 10px;
+    }
+
+    form.tdp_form label {
+        float: none;
+    }
+
+    form.tdp_form div {
+        margin-bottom: 10px;
+    }
+
+    .tdp_asterisk {
+        display: none;
+    }
+    .multi-rating-wrap {
+        position: static;
+    }
+    #comments.normal-comments #submit {
+        width: 99%
+    }
+    .wpcf7-form input[type=text], .wpcf7-form select, .wpcf7-form input[type=email] {
+        width: 92%;
+    }
+    .wpcf7-form textarea {
+        width: 87%;
+    }
+    .hl > li {
+        float: none !important;
+    }
+    #content-container .acf-tab-group li {
+        margin: 0 8px 0 0 !important;
+    }
+    #content-container .acf-tab-group {
+        height: auto !important;
+    }
+    #content-container .acf_postbox input[type=text] {
+        width: 95% !important;
+    }
+    span.mceEditor, td.remove {
+        display: none !important;
+    }
+    textarea.wp-editor-area {
+        display: block !important;
+    }
+    #acf-add_promotions_to_your_listing td.label, #acf-add_promotions_to_your_listing td.label + td {
+        display: block;
+        width: 87%;
+    }
+    #content-container #acf-add_promotions_to_your_listing input[type=text] {
+        width: 94% !important;
+    }
+    .push2 {
+        margin-top: 140px !important;
+    }
+
+    .map-is-ajax .push2 {
+        margin-top: 70px !important;
+        margin-left: 10px !important
+    }
+
+} 
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio: 2) {
+  #home-sidebar { display:none !important; }
+}

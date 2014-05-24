@@ -1,0 +1,13 @@
+header, #header-map, #breadcrumb, #right-counter, #sidebar-wrapper .widget, .item-share, .mds-divider, .featured-single, #comments, footer, .sep {
+	display:none;
+}
+
+#sidebar-wrapper .widget_tdp_listings_map {
+	display: block !important;
+}
+
+#listing-brief {
+background: #FFF;
+box-shadow: none;
+padding: 10px 0px 40px 0px;
+}

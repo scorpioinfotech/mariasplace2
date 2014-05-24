@@ -1,0 +1,20 @@
+[07-Mar-2014 06:53:59 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'MySQL operation failed
+Unknown column 'rec_type' in 'field list'' in /home/azohub/public_html/html/test/common/connector/db_common.php:1011
+Stack trace:
+#0 /home/azohub/public_html/html/test/common/connector/db_common.php(670): MySQLDBDataWrapper->query('SELECT `event_i...')
+#1 /home/azohub/public_html/html/test/common/connector/base_connector.php(531): DBDataWrapper->select(Object(DataRequestConfig))
+#2 /home/azohub/public_html/html/test/common/connector/base_connector.php(512): Connector->get_resource()
+#3 /home/azohub/public_html/html/test/common/connector/base_connector.php(409): Connector->render()
+#4 /home/azohub/public_html/html/test/data/events_rec.php(32): Connector->render_table('events', 'event_id', 'start_date,end_...')
+#5 {main}
+  thrown in /home/azohub/public_html/html/test/common/connector/db_common.php on line 1011
+[07-Mar-2014 06:59:48 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'MySQL operation failed
+Unknown column 'rec_type' in 'field list'' in /home/azohub/public_html/html/test/common/connector/db_common.php:1011
+Stack trace:
+#0 /home/azohub/public_html/html/test/common/connector/db_common.php(670): MySQLDBDataWrapper->query('SELECT `event_i...')
+#1 /home/azohub/public_html/html/test/common/connector/base_connector.php(531): DBDataWrapper->select(Object(DataRequestConfig))
+#2 /home/azohub/public_html/html/test/common/connector/base_connector.php(512): Connector->get_resource()
+#3 /home/azohub/public_html/html/test/common/connector/base_connector.php(409): Connector->render()
+#4 /home/azohub/public_html/html/test/data/events_rec.php(32): Connector->render_table('events', 'event_id', 'start_date,end_...')
+#5 {main}
+  thrown in /home/azohub/public_html/html/test/common/connector/db_common.php on line 1011

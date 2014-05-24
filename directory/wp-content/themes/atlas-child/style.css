@@ -1,0 +1,19 @@
+/*
+ Theme Name:     Atlas Child
+ Theme URI:      
+ Description:    Atlas Child 
+ Author:         ThemesDepot
+ Author URI:     
+ Template:       atlas
+ Version:        1.1.0
+*/
+ 
+@import url(../atlas/style.css);
+
+/*custom */
+.popup-content ul li{
+font-size:16px;
+}
+.marker-title a{
+font-size:16px;
+}

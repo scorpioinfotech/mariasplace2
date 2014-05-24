@@ -1,0 +1,2 @@
+[12-May-2014 00:53:29 America/Chicago] PHP Fatal error:  Call to undefined function plugins_url() in /home/azohub/public_html/wp-content/plugins/minigo/template/comingsoon.php on line 80
+[12-May-2014 00:55:36 America/Chicago] PHP Fatal error:  Call to undefined function plugin_dir_path() in /home/azohub/public_html/wp-content/plugins/minigo/template/mailListHandler.php on line 25

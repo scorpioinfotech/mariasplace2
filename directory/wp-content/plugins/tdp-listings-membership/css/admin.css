@@ -1,0 +1,124 @@
+.tdp_admin .newhandle {
+	padding: 10px; 
+}
+.tdp_admin .tdp_banner h2 {float: left; }
+.tdp_admin .tdp_banner .tdp_meta {float: left; margin: 26px 0 0 0; font-size: 12px; }
+.tdp_admin .tdp_banner .tdp_meta .tdp_tag-blue {margin: 0 0 0 5px; }
+.tdp_admin .tdp_banner .tdp_logo {float: left; margin: 0 1em 0 0; width: 350px; height: 75px; } 
+.tdp_admin .tdp_banner ul.tdp_menu {clear: both; border: 1px solid #CCC; border-radius: 5px; -moz-border-radius: 5px; background: #FFF; }
+.tdp_admin .tdp_banner ul.tdp_menu li {display: inline-block; margin: 10px 0; padding: 0px 10px; border-right: 1px solid #CCC; }
+.tdp_admin .tdp_banner ul.tdp_menu li a, .tdp_admin .tdp_banner ul.tdp_menu li a:link {color: #1e0741; text-decoration: none; }
+.tdp_admin .tdp_banner ul.tdp_menu li a:hover {text-decoration: underline; color: #412f5b; }
+
+.tdp_admin .tdp_tag-grey {display: inline-block; font-size: 11px; font-weight: bold; position: relative; padding: 2px 5px; border: 1px solid #CCC; background: whiteSmoke; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; }
+.tdp_admin .tdp_tag-blue {display: inline-block; font-size: 11px; font-weight: bold; position: relative; padding: 2px 5px; border: 1px solid #2997c8; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; background: #2997c8; color: #FFF; text-decoration: none; }
+.tdp_admin a.tdp_tag-blue:hover {background: #77a02e; border: 1px solid #77a02e; }
+
+.tdp_admin .topborder {border-top: 1px solid #CCC; margin-top: 1em; padding-top: 1em; }
+.tdp_admin #editorcontainer #description {width: 100%; height: 180px; }
+.tdp_admin .widefat {margin-top: 1em; }
+
+.ssp_description #description {width: 100%;}
+.checkbox_box {width: 300px; background: #FFFFFF; border: 1px solid #CCC;}
+.checkbox_box div {border-bottom: 1px solid #CCC; padding: 3px;}
+.checkbox_box .clickable {cursor: pointer;}
+.checkbox_box .clickable:hover {background: #FFC;}
+.top0em {margin-top: 0;}
+
+tr.tdp_gray td {color: #AAA;}
+
+/* messages */
+.tdp_message {background-color: #D5E4F7; background-image: url(../images/icon_information.gif); background-position: 3px 5px; background-repeat: no-repeat; margin: .5em 0; padding: 6px 6px 6px 25px; color: #345395; font-size: 11px; font-weight: bold; line-height: 1.3em; }
+
+.tdp_success {background-color: #CFEECA; background-image: url(../images/icon_success.gif); color: #208A1B; }
+.tdp_error {background-color: #F9D6CB; background-image: url(../images/icon_error.gif); color: #E36154; }
+.tdp_alert {background-color: #FFF6CC; background-image: url(../images/icon_alert.gif); color: #CF8516; }
+
+.tdp_message a {color: #345395; }
+.tdp_success a {color: #208A1B; }
+.tdp_error a {color: #E36154; }
+.tdp_alert a {color: #CF8516; }
+
+/* highlighted trs */
+tr.tdp_message {background-image: none;}
+tr.tdp_success {background-image: none;}
+tr.tdp_error {background-image: none;}
+tr.tdp_alert {background-image: none;}
+
+/* discount levels */
+.tdp_discount_levels {border: 1px solid #CCC;}
+.tdp_discount_levels div {padding: 5px; border: 1px solid #CCC;}
+.tdp_discount_levels div div {margin-top: 5px; background: #F5F5F5;}
+
+/* pagination */
+div.tdp_pagination {padding: 3px; margin: 5px 0px 5px 0px; font-size: 10px; float: right; }
+div.tdp_pagination a {padding: 2px 5px 2px 5px; margin: 1px; border: 1px solid #666; text-decoration: none; /* no underline */ color: #666; background: #EEE; }
+div.tdp_pagination a:hover, div.tdp_pagination a:active {background: #FFF; }
+div.tdp_pagination span.current {border: 1px solid #FFF; color: #FFF; background: #666; padding: 2px 5px 2px 5px; margin: 1px; font-weight: bold; }
+div.tdp_pagination span.disabled {padding: 2px 5px 2px 5px; margin: 2px; border: 1px solid #BBB; color: #BBB; background: #EFEFEF;}
+
+p.tdp_meta_notice {font-size: .8em; padding-top: 5px; border-top: 1px solid #CCC;}
+
+/* add ons */
+.tdp_admin .widgets-holder-wrap {clear: both; margin-top: 50px; }
+.tdp_admin .widgets-holder-wrap h3 {margin: 2em 0 0 0; }
+.tdp_admin .widgets-holder-wrap .widget {float: left; width: 32%; margin: 0 1% 10px 0; border: 1px solid #DFDFDF; position: relative; }
+.tdp_admin .widgets-holder-wrap .widget-top {height: auto; cursor: default; }
+.tdp_admin .widgets-holder-wrap .widget-inside {display: block; height: 130px; overflow: hidden; }
+.tdp_admin .widgets-holder-wrap .widget-inside p {height: 80px; overflow: hidden; }
+.tdp_admin #tdp-gists.widgets-holder-wrap .widget-inside, .tdp_admin #tdp-gists.widgets-holder-wrap .widget-inside p {height: auto; }
+.tdp_admin .widgets-holder-wrap .widget-title { }
+.tdp_admin .widgets-holder-wrap .widget-title h4 { }
+.tdp_admin .widgets-holder-wrap .widget-title .status-label {display: block; float: left; margin: 0 5px 0 0; width: 10px;
+height: 10px; overflow: hidden; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; border: 1px solid #DFDFDF; text-indent: -9999em; }
+.tdp_admin .widgets-holder-wrap .disabled .widget-title .status-label {background: #F00; }
+.tdp_admin .widgets-holder-wrap .enabled .widget-title .status-label {background: #0C0; }
+
+.tdp_admin .widgets-holder-wrap .widget-title .version {position: absolute; top: 5px; right: 5px; }
+.tdp_admin .widgets-holder-wrap .widget-inside .addon-thumb {width: 100px; height: 100px; float: right; margin: 0 0 10px 10px; border: 1px solid #DFDFDF; background: #FFF; padding: 2px;}
+
+/*@media (min-width: 1200px) {
+	.auto-fold .tdp_admin .widgets-holder-wrap .widget-inside, .auto-fold .tdp_admin .widgets-holder-wrap .widget-inside p {height: auto; }
+}
+*/
+@media (max-width:900px) {
+	.auto-fold .tdp_admin .widgets-holder-wrap .widget {float: none; width: 100%; }
+	.auto-fold .tdp_admin .widgets-holder-wrap .widget-inside, .auto-fold .tdp_admin .widgets-holder-wrap .widget-inside p {height: auto; }
+}
+
+/* misc */
+.tdp_lite {color: #AAA;}
+.tdp_pad20 {padding: 20px !important;}
+.tdp_red {color: #CC0000;}
+.tdp_green {color: #00AA00;}
+
+/* reports */
+.tdp_reports-holder { }
+.tdp_reports-holder .postbox-container {margin-right: 5px; }
+.tdp_clickable {cursor: pointer;}
+.js .postbox.tdp_clickable h3 {cursor: pointer;}
+
+.tdp_admin #first-box {
+	margin-top: 30px;
+}
+
+.tdp_admin label {
+	font-weight: bold;
+}
+
+.tdp_admin .mceIframeContainer.mceFirst.mceLast {
+	background: #FFF;
+}
+
+.tdp_admin input[type=text] {
+	padding: 3px 8px;
+	font-size: 1.7em;
+	line-height: 100%;
+	width: 100%;
+	outline: 0;
+}
+
+.tdp_admin .form-table td small {
+	font-size: 12px;
+}
+

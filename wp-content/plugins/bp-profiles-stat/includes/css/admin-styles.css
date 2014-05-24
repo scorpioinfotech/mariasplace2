@@ -1,0 +1,272 @@
+#bpps-admin #poststuff{
+    margin:15px 0 0;
+}
+    #bpps-admin #poststuff h3{
+        cursor:default;
+    }
+/**
+ * General rules and helpers
+ */
+#bpps-admin p.para{
+    border-top:1px solid #ccc;
+    width:100%;
+}
+#bpps-admin abbr{
+    border-bottom: 1px dotted #aaa;
+}
+#bpps-admin .hide{
+    display: none;
+}
+#bpps-admin .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#bpps-admin .divider{
+    padding-right:20px;
+    border-right:2px solid #ddd;
+    margin-right:20px;
+}
+#bpps-admin .debug{
+    outline:1px solid red;
+    min-height:50px;
+}
+
+#bpps-admin .loading{
+    background: whiteSmoke url(../img/loading.gif) 50% 50% no-repeat;
+    opacity: 0.5;
+}
+
+/**
+ * Navigation
+ */
+#bpps-admin .nav-tab img{
+    margin-bottom: -4px;
+    margin-right: 5px;
+}
+#bpps-admin .nav-tab-active{
+    padding-top:8px;
+}
+#bpps-admin .nav-tab .icons{
+    background: url(../img/icons.png) no-repeat;
+    float: left;
+    width: 20px;
+    height: 16px;
+}
+#bpps-admin .nav-tab span.icon-dash{
+    background-position: 0 0;
+}
+#bpps-admin .nav-tab span.icon-profiles{
+    background-position: -20px 0;
+}
+#bpps-admin .nav-tab span.icon-time{
+    background-position: -40px 0;
+}
+#bpps-admin .nav-tab span.icon-author{
+    background-position: -60px 0;
+}
+#bpps-admin .nav-tab span.icon-settings{
+    background-position: -80px 0;
+}
+
+/**
+ * Options to choose from
+ */
+#bpps-admin .first_half{
+    width:30%;
+    float:left;
+    margin-right:20px;
+}
+    #bpps-admin .first_half ul.groups li > span{
+        font-weight:bold;
+    }
+    #bpps-admin .first_half ul.groups li ul.fields li{
+        margin-left:15px;
+    }
+        #bpps-admin .first_half ul.groups li ul.fields li span.desc{
+            color:#aaa;
+        }
+    #bpps-admin .first_half .datepicker input[type="text"]{
+        width:100px;
+    }
+    #bpps-admin .first_half ul.other ul.actions{
+        margin:5px 0 0 25px;
+        display:none;
+    }
+    #bpps-admin .first_half ul.other ul.actions_by{
+        margin:5px 0 0 20px;
+    }
+
+/**
+ * Area for a Pie or a Graph lines
+ */
+#bpps-admin .second_half{
+    float:left;
+    width:66%;
+}
+#bpps-admin #graph{
+    background: url(../img/nope.png) 50% 50% no-repeat;
+    height:350px;
+    margin:10px;
+}
+    #bpps-admin .pie_hover_label{
+        font-size:11px;
+        text-align:center;
+        padding:2px;
+        color:#fff;
+    }
+
+/**
+ * DASHBOARD: General
+ */
+#bpps-admin .dash_left{
+    float:left;
+    margin-right:1%;
+}
+#bpps-admin .dash_right{
+    float:right;
+}
+#bpps-admin .dash_left, #bpps-admin .dash_right{
+    width:49%;
+}
+#bpps-admin .dash_center{}
+
+/**
+ * DASHBOARD: Users Count Widget
+ */
+#bpps-admin .users_count h4{
+    border-bottom: 1px solid #CCCCCC;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+    #bpps-admin .users_count .users_bad h4{
+        border-color: red;
+    }
+    #bpps-admin .users_count .users_good h4{
+        border-color: green;
+    }
+#bpps-admin .users_count .users_bad{
+    float:left;
+    margin-right:1%;
+}
+    #bpps-admin .users_count .users_bad a.more{
+        float: right;
+    }
+#bpps-admin .users_count .users_good{
+    float:right;
+}
+#bpps-admin .users_count .users_bad, #bpps-admin .users_count .users_good{
+    width: 47%;
+}
+    
+#bpps-admin .users_count ul li span{
+    color: #21759B;
+    font-size: 1.3em;
+    font-weight: bolder;
+    margin-right: 3px;
+}
+    #bpps-admin .users_count .users_bad ul li span{
+        color: red;
+    }
+    #bpps-admin .users_count .users_good ul li span{
+        color: green;
+    }
+    
+#bpps-admin .users_count .extra_option{
+    border-top: 1px solid #CCC;
+    clear: both;
+    padding-top: 10px;
+}
+
+/**
+ * DASHBOARD: Generic content
+ */
+#bpps-admin .generic #users-list{
+    padding:5px;
+}
+    #bpps-admin .generic #users-list li{
+        padding: 5px 5px 6px;
+    }
+        #bpps-admin .generic #users-list li:hover{
+            background: #eaeaea;
+        }
+    #bpps-admin .generic #users-list span.action {
+        float:right;
+    }
+#bpps-admin .generic .pagination{
+    padding-top:5px;
+}
+    #bpps-admin .generic .pagination-links .page-numbers{
+        padding: 3px;
+        margin-right: 3px;
+    }
+    #bpps-admin .generic .pagination-links .page-numbers.current{
+        border-radius: 3px;
+        background: #eaeaea;
+    }
+
+/**
+ * FOOTER
+ */
+#bpps-admin #bottom{
+    border-top:1px solid #DFDFDF;
+    color: #777;
+    padding: 10px 0;
+}
+
+/**
+ * DATEPICKER
+ */
+.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}
+.ui-widget-overlay{position:absolute;top:0;left:0;width:100%;height:100%}
+.ui-widget{font-family:Verdana,Arial,sans-serif;font-size:1.1em}
+.ui-widget .ui-widget{font-size:1em}
+.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{font-family:Verdana,Arial,sans-serif;font-size:1em}
+.ui-widget-content{border:1px solid #aaaaaa;background:#ffffff url(../img/ui/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;color:#222222}
+.ui-widget-content a{color:#222222}
+.ui-widget-header{border:1px solid #aaaaaa;background:#cccccc url(../img/ui/ui-bg_highlight-soft_75_cccccc_1x100.png) 50% 50% repeat-x;color:#222222;font-weight:bold}
+.ui-widget-header a{color:#222222}
+.ui-state-default,.ui-widget-content .ui-state-default,.ui-widget-header .ui-state-default{border:1px solid #d3d3d3;background:#e6e6e6 url(../img/ui/ui-bg_glass_75_e6e6e6_1x400.png) 50% 50% repeat-x;font-weight:normal;color:#555555}
+.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited{color:#555555;text-decoration:none}
+.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-widget-header .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus,.ui-widget-header .ui-state-focus{border:1px solid #999999;background:#dadada url(../img/ui/ui-bg_glass_75_dadada_1x400.png) 50% 50% repeat-x;font-weight:normal;color:#212121}
+.ui-state-hover a,.ui-state-hover a:hover{color:#212121;text-decoration:none}
+.ui-state-active,.ui-widget-content .ui-state-active,.ui-widget-header .ui-state-active{border:1px solid #aaaaaa;background:#ffffff url(../img/ui/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;font-weight:normal;color:#212121}
+.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{color:#212121;text-decoration:none}
+.ui-widget :active{outline:none}
+.ui-widget-overlay{background:#aaaaaa url(../img/ui/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;opacity:.30;filter:Alpha(Opacity=30)}
+.ui-widget-shadow{margin:-8px 0 0 -8px;padding:8px;background:#aaaaaa url(../img/ui/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;opacity:.30;filter:Alpha(Opacity=30);-moz-border-radius:8px;-khtml-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
+.ui-icon{width:16px;height:16px;background-image:url(../img/ui/ui-icons_222222_256x240.png)}
+.ui-widget-content .ui-icon {background-image:url(../img/ui/ui-icons_222222_256x240.png)}
+.ui-widget-header .ui-icon {background-image:url(../img/ui/ui-icons_222222_256x240.png)}
+.ui-state-default .ui-icon{background-image:url(../img/ui/ui-icons_888888_256x240.png)}
+.ui-state-hover .ui-icon,.ui-state-focus .ui-icon {background-image:url(../img/ui/ui-icons_454545_256x240.png)}
+.ui-state-active .ui-icon {background-image:url(../img/ui/ui-icons_454545_256x240.png)}
+.ui-state-highlight .ui-icon {background-image:url(../img/ui/ui-icons_2e83ff_256x240.png)}
+.ui-state-error .ui-icon,.ui-state-error-text .ui-icon {background-image:url(../img/ui/ui-icons_cd0a0a_256x240.png)}
+.ui-datepicker{width:17em;padding:.2em .2em 0;display:none}
+.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0}
+.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em}
+.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px}
+.ui-datepicker .ui-datepicker-prev{left:2px}
+.ui-datepicker .ui-datepicker-next{right:2px}
+.ui-datepicker .ui-datepicker-prev-hover{left:1px}
+.ui-datepicker .ui-datepicker-next-hover{right:1px}
+.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px; }
+.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center}
+.ui-datepicker .ui-datepicker-title select{font-size:1em;margin:1px 0}
+.ui-datepicker select.ui-datepicker-month-year {width:100%}
+.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:49%}
+.ui-datepicker table {width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em}
+.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0; }
+.ui-datepicker td{border:0;padding:1px}
+.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none}
+.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0}
+.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}
+.ui-datepicker .ui-state-disabled span{color:#ccc}
+.ui-icon-circle-triangle-e{background-position:-48px -192px}
+.ui-icon-circle-triangle-s{background-position:-64px -192px}
+.ui-icon-circle-triangle-w{background-position:-80px -192px}
+.ui-icon-circle-triangle-n{background-position:-96px -192px}

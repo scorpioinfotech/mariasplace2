@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<title>Maria's Place</title>
+<link href="stylesheet.css" rel="stylesheet" type="text/css" />
+<script type='text/javascript' src="js/jquery.min.js"></script>
+<script type='text/javascript' src="js/modernizr.custom.49511.js"></script>
+<script type='text/javascript' src="js/jquery.onebyone.min.js"></script>
+<script type='text/javascript' src="js/jquery.touchwipe.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+
+  
+  $('#banner').oneByOne({
+			className: 'oneByOne1',
+			/* Please provide the width and height in the responsive
+			version, for the slider will keep the ratio when resize
+			depends on these size. */
+			width: 640,
+			height: 360,
+			easeType: 'random',
+			slideShow: false,
+			responsive: true,
+			minWidth: 260,
+			autoHideButton: true
+		});
+		
+		
+		// nav dropdown
+					  var pull 		= $('#pull');
+				menu 		= $('#nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+});
+</script>
+</head>
+<!--Body start-->
+<body>
+<!--main wrapper start-->
+<div class="main_wrapper">
+  <!--header start-->
+  <header>
+    <!--header wrapper start-->
+    <div class="wrapper">
+      <!--logo start-->
+      <div class="logo_con"><img src="images/logo_maria.png" alt="maria_place_logo" /></div>
+      <!--logo end-->
+      <!--navigation start-->
+      <div class="nav_bg">
+        <nav id="nav">
+        <a href="#" id="pull">Menu</a>
+          <ul>
+            <li><a href="#">Connect &amp; Learn</a></li>
+            <li><a href="#">Health</a></li>
+            <li><a href="#">Entertainment</a></li>
+            <li><a href="#">Maria&#39;s Corner</a></li>
+          </ul>
+        </nav>
+        <div class="ryan_image_con">
+          <div class="name_link_main">
+            <div class="name_link">HI Ryan</div>
+            <div class="drop_arrow">
+              <svg class="svg-triangle" fill="white">
+                <polygon points="0,0 18,0 10,13"/>
+              </svg>
+            </div>
+          </div>
+          <div class="ryan_image"><img src="images/ryan_image.png" alt="image" /> </div>
+        </div>
+      </div>
+      <!---navigation ends-->
+    </div>
+    <!--header wrapper end-->
+  </header>
+  <!--header end-->
+  <!---middle start-->
+  <div class="wrapper_2">
+    <!--main text start-->
+    <div class="main_txt">
+      <div class="main_work_con">
+        <!-- <div class="focus_text">We focus on <span class="red">positive aging </span>for <span class="blue">healthy seniors</span></div> -->
+        <div class="focus_text"><span class="red">Aging - A Positive Journey</span></div>
+        <hr />
+        <!--video left text start-->
+        <div class="text_video_con">
+          <!--left text start-->
+          <div class="left_con">
+            <div class="healthy">Healthy lifestyles for older people</div>
+            <div class="sign_up">Sign up for free</div>
+          </div>
+          <!--left text start-->
+          <!--video  start-->
+          <div class="video_con">
+            <div id="banner">
+              <div class="oneByOne_item"> <img src="images/Slide41.jpg"  class="bigImage" data-animate="bounceIn"></img> </div>
+              <div class="oneByOne_item"> <img src="images/Slide3.jpg"  class="bigImage"></img> </div>
+              <div class="oneByOne_item"> <img src="images/Slide2.jpg"  class="bigImage" ></img> </div>
+              <div class="oneByOne_item"> <img src="images/Slide1.jpg"  class="bigImage" ></img> </div>
+            </div>
+          </div>
+          <!--video  start-->
+        </div>
+        <!--video left text end-->
+        <div class="take_tour_btn">Take a tour</div>
+      </div>
+      <div class="bottom_background"></div>
+    </div>
+    <!--main text end-->
+  </div>
+  <!--middle end-->
+  <!--footer start-->
+  <div class="wrapper_2">
+    <div class="footer_con">
+      <!--footer menu links start-->
+      <div class="footer_link">
+        <!--footer link navigation start-->
+        <ul>
+          <li>
+            <div class="about">About Us</div>
+            <div class="about_cntent">Think Netflix and Lumosity, directed specifically towards Alzheimers, Dementia, and the older population in general. </div>
+          </li>
+          <li>
+            <div class="about">Contact Us</div>
+            <div class="about_cntent">Please dont be shy.  We want to hear from you. You are the reason we got up this morning. </div>
+          </li>
+          <li>
+            <div class="about">About Us</div>
+            <div class="about_cntent">
+              <ul>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">History</a></li>
+                <li><a href="#">More Info</a></li>
+                <li><a href="#">Another Link</a></li>
+                <li><a href="#">And Another</a></li>
+              </ul>
+            </div>
+          </li>
+          <li>
+            <div class="about">Marias Tweets</div>
+            <div class="about_cntent">True enjoyment comes from activity of the mind and exercise of the body; 
+              the two are ever united. </div>
+          </li>
+        </ul>
+        <!--footer link navigation end-->
+      </div>
+      <!--footer menu links end-->
+      <!-- <div class="mail_image"><img src="images/mail_box.png" alt="mail_box" /></div> -->
+    </div>
+    <!--footer M image and  copyright start-->
+    <div class="footer_m">
+      <div class="footer_image">
+        <div class="maria_copyright">Marias Place.  2014 by <span class="policy_txt">MariasPlace.com</span></div>
+      </div>
+    </div>
+    <!--footer M image and copyright end-->
+  </div>
+  <!--footer end-->
+</div>
+<!--main wrapper end-->
+<!--Body ends-->
+</body>
+</html>

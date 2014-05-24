@@ -1,0 +1,9 @@
+@media print {
+	
+.tdp_a-print {display: none; position: absolute; left: -9999px; }	
+
+header, #breadcrumb, #listing-brief, footer, #nav-below, #top-bar {
+	display: none !important;
+}
+	
+}

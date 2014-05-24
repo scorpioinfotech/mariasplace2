@@ -1,0 +1,222 @@
+#edit-slug-box {
+/*display:none;*/
+}
+
+/* slector helper */
+.showing-helper {
+/*
+	overflow:hidden !important;
+	height:100% !important;
+	width:100% !important;
+	padding:0 !important;
+	margin:0 !important;
+*/	
+}
+#helper-uri-selector {
+	min-width:200px;
+	min-height:100px;
+	position:absolute;
+	left:0;
+	top:0;
+	background-color:#000000;
+	display:none;
+	margin:0;
+	padding:0;
+	width:100%;
+	height:100%;
+	z-index:100;/* wp3.2*/
+}
+.helper-top{
+	position:fixed;
+	top:0;
+    background-color: #ECECEC;
+    background-image: -moz-linear-gradient(center bottom , #ECECEC, #ECECEC);
+    color: #000000;	
+	padding:3px 3px 8px 15px;
+	width:100%;
+	height:50px;
+	z-index:20;
+}
+
+.left-tool-cont {
+	position:fixed;
+	overflow:auto;
+	height:100%;
+	background-color: #ECECEC;
+	left:0;
+	top:61px;
+	padding:0;
+	margin:0;
+	/*border-top:56px solid;*/
+	z-index:10;
+	width:20%;
+	min-width:250px;
+}
+.left-filler {
+	height:56px;
+}
+.frame-cont {
+	position:absolute;
+	top:0;
+	right:0;
+	background-color:#FFFFFF;
+	width:80%;
+	height:100%;
+	border-top:solid 56px;
+	padding:0;
+	margin:0;	
+}
+.helper-frame {
+	width:100%;
+	height:100%;
+}
+
+.helper-status {
+	display:inline-block;
+	margin-left:10px;
+}
+
+.helper-url {
+	width:475px;
+}
+
+.helper-tour-uri {
+	width:425px;
+}
+
+.helper-clear {
+	clear:both;
+}
+
+#tour-uri {
+	width:270px;
+}
+
+.slide-selector,
+.slide-content,
+.slide-tip-position {
+	width:100%;
+}
+
+.slide-content {
+height:50px;
+}
+
+.colorpicker {
+	z-index:999999;
+}
+
+.clear {
+	clear:both;
+}
+/* tabs */
+.tab-status {
+	width:32px;
+	height:32px;
+	float:right;
+}	
+.tab-status-loading{
+	background: url("images/spinner_32x32.gif") no-repeat scroll center center transparent;
+	min-width:32px;
+	min-height:32px;
+}
+
+.tab-fieldset {
+	display:block;
+	width:100%;
+	margin-bottom:5px;
+}
+
+label[for=position],
+label[for=color],
+label[for=bgcolor] {
+	display:block;
+	width:100px;
+	float:left;
+}
+
+label[for=width],
+label[for=v-offset],
+label[for=h-offset] {
+	display:block;
+}
+
+.slide-tip-position {
+	width:100px;
+}
+
+.slide-color,
+.slide-bgcolor {
+	width:75px;
+}
+.slide-content {
+	height:75px;
+}
+
+/* time slider */
+/* jquery-ui tools rangeinput*/
+/* slider root element */
+.jwt-settings .slider { 
+	background:#3C72E6 url(images/h30.png) repeat-x 0 0; 
+	height:9px; 
+	position:relative; 
+	cursor:pointer;
+	border:1px solid #333;
+	width:120px;
+	float:left; 
+	clear:right;
+	margin-top:10px;
+	-moz-border-radius:5px; 
+	-webkit-border-radius:5px; 
+	-moz-box-shadow:inset 0 0 8px #000;
+}
+/* drag handle */
+/* progress bar (enabled with progress: true) */
+.jwt-settings .progress {
+	height:9px; 
+	background-color:#C5FF00; 
+	display:none;
+	opacity:0.6;
+}
+
+.jwt-settings .handle { 
+	background:#fff url(images/h30.png) repeat-x 0 0; 
+	height:28px;
+	width:28px;
+	top:-12px;
+	position:absolute; 
+	display:block; 
+	margin-top:1px;
+	border:1px solid #000;
+	cursor:move;
+	-moz-box-shadow:0 0 6px #000;
+	-webkit-box-shadow:0 0 6px #000;
+	-moz-border-radius:14px;
+	-webkit-border-radius:14px; 
+
+}
+
+/* the input field */
+.jwt-settings .range.slide-time {
+	width:75px;
+}
+.jwt-settings .range {
+	border:1px inset #ddd;
+	float:left;
+	font-size:20px;
+	margin:0 0 0 15px;
+	padding:3px 0;
+	text-align:center;
+	width:50px;
+	-moz-border-radius:5px; 
+	-webkit-border-radius:5px; 		
+}
+
+/* jquery-ui overwrite */
+#list-of-attachments .ui-widget {
+	font-size:11px !important;
+}
+
+#list-of-attachments .ui-tabs .ui-tabs-panel {
+	padding: 0.9em 1em !important;
+}
