@@ -42,7 +42,7 @@
 				<a href="<?php bp_member_permalink(); ?>"><?php bp_member_avatar(); ?></a>
 			</div>
 
-			<div class="item-detail">
+			<div class="item">
 				<div class="item-title">
 					<a href="<?php bp_member_permalink(); ?>"><?php bp_member_name(); ?></a>
 
@@ -51,19 +51,8 @@
 						<span class="update"> <?php bp_member_latest_update(); ?></span>
 
 					<?php endif; */?>
-</div>
-<div class="item-location">
-<?php  $member_id = bp_get_member_user_id(); ?>
-											<?php $value = get_cimyFieldValue($member_id, 'CITY');
-											$state = get_cimyFieldValue($member_id, 'STATE');
-											if($value != "" && $state != ""){
-											echo cimy_uef_sanitize_content($value) .', '.  cimy_uef_sanitize_content($state);
-											}
-											?>
-											</div> 				
 
-
-
+				</div>
 
 				<div class="item-meta"><!--<span class="activity"><?php //bp_member_last_active();?></span>--></div>
 
