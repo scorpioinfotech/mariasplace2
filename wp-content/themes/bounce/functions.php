@@ -612,12 +612,4 @@ register_sidebar( array(
     'description'  => __( 'Widgets in this area will be shown on Questions Page.' ),
     'before_title' => '<h1>',
     'after_title'  => '</h1>',
-) );
-register_sidebar( array(
-    'name'         => __( 'Articles Page Sidebar' ),
-    'id'           => 'articles-page',
-    'description'  => __( 'Widgets in this area will be shown on Questions Page.' ),
-    'before_title' => '<h1>',
-    'after_title'  => '</h1>',
-) );
-?>
+) );?>

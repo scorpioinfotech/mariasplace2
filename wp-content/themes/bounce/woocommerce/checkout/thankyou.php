@@ -67,3 +67,6 @@ if ( $order ) : ?>
 	<p><?php _e( 'Thank you. Your order has been received.', 'woocommerce' ); ?></p>
 
 <?php endif; ?>
+<script>
+window.location = 'http://mariasplace.com/login/'
+</script>

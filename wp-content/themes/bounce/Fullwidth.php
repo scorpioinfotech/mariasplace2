@@ -5,9 +5,6 @@ Template Name: Full Width
 get_header(); global $gp_settings; ?>
 
 <style>
-.sb-right #sidebar {
-display:none;
-}
 .sb-right #content {
 float: none;
 }

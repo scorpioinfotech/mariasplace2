@@ -375,7 +375,7 @@ color: #ccc;
 }
 .bp-wrapper ul.item-list {
 width: 100%;
-/*border-bottom: 1px solid #eee;*/
+border-bottom: 1px solid #eee;
 }
 .bp-wrapper ul.item-list li {
 list-style-type: none;
@@ -422,8 +422,8 @@ color: inherit;
 position: relative;
 overflow: hidden;
 padding: 15px;
-/*border: 1px solid #eee;
-border-bottom: 0;*/
+border: 1px solid #eee;
+border-bottom: 0;
 background: #f8f8f8;
 background-image: -moz-linear-gradient(#fff, #f8f8f8);
 background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#f8f8f8));
@@ -693,8 +693,8 @@ line-height: 1;
 .bp-wrapper .item-list div.activity-avatar img,
 .widget .swa-activity-list div.swa-activity-avatar img {
 float: left;
-width: 66px;
-height: 66px;
+width: 35px;
+height: 35px;
 margin: 3px 12px 3px 3px;
 }
 .ac-reply-avatar img.avatar,
@@ -1027,10 +1027,10 @@ font-size: 11px;
 width: 50%;
 }
 .bp-wrapper ul.item-list div.action {
-    position: absolute;
-    left: 79px;
-    text-align: right;
-    bottom: 20px;
+position: absolute;
+text-align: right;
+top: 20px;
+right: 20px;
 }
 
 /* Group Admin Settings */
@@ -1519,26 +1519,7 @@ width: 400px;
 .bp-wrapper hr {
 margin: 15px 0 !important;
 }
-/*************************** suggested-friend ***************************/
 
-.qa-left-side #bp_friend_suggestions_widget-3 h2 {color: #3F902A; font-family: 'nunitolight'; font-size: 25px; font-weight: bold;}
-
-.suggested-friend-item-list li{background: none; padding:10px 18px !important; margin:0px 0 0 0 !important; overflow: hidden; line-height: 15px;}
-.suggested-friend-item-list .item-avatar {float: left; width: 66px;}
-.suggested-friend-item-list .item-detail {display: block; margin-left: 72px; min-height: 66px; position: relative;}
-.suggested-friend-item-list .item-detail div{position: absolute;}
-.suggested-friend-item-list .item-detail .item-title {    font-family: 'nunitoregular'; font-size: 17px; left: 0; top:12px; width: 100%;}
-.suggested-friend-item-list .item-detail .item-title a{ color: #405357;}
-.suggested-friend-item-list .item-detail .item-title a:visited{ color: #405357;}
-.suggested-friend-item-list .item-detail .item-title a:hover{ color: #405357;}
-.suggested-friend-item-list .item-location {bottom: 0; color: #CDCDCD; font-size: 13px; left: 0;}
-
-.suggested-friend-item-list li:hover{background:#e9f0b9; display:block; border-radius:15px;}
-.suggested-friend-item-list li:hover .item-location{color:#c7c37d;}
-.suggested-friend-item-list .item-avatar img{margin:0;}
-.suggested-friend-item-list .item-location{color:#cdcdcd; font-size:13px; left:0px; bottom:0px; font-family: 'nunitoregular';}
-
-/*************************** //suggested-friend ***************************/
 
 /*************************** Widgets ***************************/
 
@@ -1552,15 +1533,13 @@ margin-left: 60px;
 }
 .widget ul.item-list li {
 background: none !important;
-/*border-top: 1px solid #eee !important;
-border-bottom: 0 !important;*/
-padding:15px !important;
-margin:15px 0 0 0 !important;
+border-top: 1px solid #eee !important;
+border-bottom: 0 !important;
+padding: 15px 0 0 0 !important;
+margin: 15px 0 0 0 !important;
 overflow: hidden;
 line-height: 15px;
 }
-
-
 #top-content .widget ul.item-list li {
 border: 0 !important;
 padding: 6px 0 !important;
@@ -1593,27 +1572,18 @@ margin-bottom: 10px;
 }
 .widget ul.item-list li div.item-title,
 .widget ul.item-list li h4 {
-font-family: 'nunitoregular';
+font-family: Helvetica, Arial, sans-serif;
 margin: 0;
 font-size: 12px !important;
 line-height: 16px;
 }
-
-.widget ul.item-list li div.item-title, .widget ul.item-list li h4 {
-    font-family: 'nunitoregular';
-    font-size: 17px !important;
-    line-height: 16px;
-    margin: 0;
-}
-
-
 #top-content .widget ul.item-list li div.item-title,
 #top-content .widget ul.item-list li h4 {
 font-size: 11px !important;
 line-height: 16px;
 }
 .widget.bbp_widget_login h4 {
-font-family: 'nunitoregular';
+font-family: Helvetica, Arial, sans-serif;
 font-size: 14px;
 }
 
