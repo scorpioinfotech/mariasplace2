@@ -8,7 +8,7 @@
 	
 	<div id="sidebar">
 				
-		
+		<?php if(is_post_type_archive() == 'Questions'){?>
 <?php if(is_user_logged_in()) { ?>
 
 <?php global $current_user;
@@ -28,7 +28,7 @@
 <?php echo $current_user->user_login; ?><br>
 
 </div><!-- end of ryan_name -->
-
+<?php } ?>
 <?php }  ?>
 		<!-- BEGIN BUDDYPRESS SITEWIDE NOTICES -->
 				

@@ -5,7 +5,7 @@
 global $qa_general_settings;
 
 if ( isset( $qa_general_settings["page_layout"] ) && $qa_general_settings["page_layout"] !='content' )
-	dynamic_sidebar('Articles Page Sidebar');
+	get_sidebar( 'question' );
 ?>
 </div>
 
@@ -86,7 +86,7 @@ if ( isset( $qa_general_settings["page_layout"] ) && $qa_general_settings["page_
 		<?php comments_template(); ?>
 		
 		<!-- END COMMENTS -->
-	
+	<?php get_sidebar(); ?>	
 	
 	</div>
 
