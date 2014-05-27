@@ -460,9 +460,8 @@ box-shadow: 0 0 5px rgba(0,0,0,0.1);
 -moz-border-radius: 27px;
 border-radius: 27px;
 }
-.padding #content-wrapper {
- padding: 0px; 
-}
+
+ #content{padding: 0px 45px; }
 /* Main Content */
 #content {
 position: relative;
@@ -1223,7 +1222,7 @@ float: right;
 margin: 20px -48px 20px 0;
 }
 .frame .author-info {
-margin: 20px 0 20px -48px;
+margin: 20px 0 20px 0px;
 -webkit-border-radius: 0 4px 4px 4px;
 -moz-border-radius: 0 4px 4px 4px;
 border-radius: 0 4px 4px 4px;
@@ -2687,6 +2686,7 @@ width: auto;
 .comment-author {
 font-weight: bold;
 padding-bottom: 5px;
+text-transform:capitalize;
 }
 .comment-date {
 color: #666;
@@ -3294,14 +3294,14 @@ font-family: 'icomoon';
 #content .breadcrumb span {float: left; margin-right: 3px;}
 #content .breadcrumb span.icon-uniE60F2 {margin-top: 3px; font-size: 8px; }
 .qa-left-side .search-box{float:left; margin-top: 30px;}
-.qa-left-side #question_categories-2 {float: left; margin-top: 36px;}
-.qa-left-side #question_categories-2  h2{color:#3f902a;  font-family: 'nunitolight';  font-weight:bold; font-size:25px;}
-.qa-left-side #question_categories-2 ul{float:left; }
-.qa-left-side #question_categories-2 ul li {display: inline; background:none;    float: left;    padding-left:5%; margin-bottom:0;    width: 90%;}
-.qa-left-side #question_categories-2 ul li a {color: #35393C; float: left; font-family: 'open_sansregular'; font-size: 19px; line-height: 27px; text-transform: capitalize;}
-.qa-left-side #question_categories-2 ul li a:hover{color:#3f902a; }
+.qa-left-side #question_categories-2,.qa-left-side .widget_recent_entries h1 {float: left; margin-top: 36px;}
+.qa-left-side #question_categories-2  h2,.qa-left-side .widget_recent_entries h1{color:#3f902a;  font-family: 'nunitolight';  font-weight:bold; font-size:25px;}
+.qa-left-side #question_categories-2 ul,.qa-left-side .widget_recent_entries ul{float:left; }
+.qa-left-side #question_categories-2 ul li,.qa-left-side .widget_recent_entries li {display: inline; background:none;    float: left;    padding-left:5%; margin-bottom:0;    width: 90%;}
+.qa-left-side #question_categories-2 ul li a , .qa-left-side .widget_recent_entries li a{color: #35393C; float: left; font-family: 'open_sansregular'; font-size: 19px; line-height: 27px; text-transform: capitalize;}
+.qa-left-side #question_categories-2 ul li a:hover,.qa-left-side .widget_recent_entries ul li a:hover{color:#3f902a; }
 .qa-left-side #searchbar {color: #A0A0A0; font-size: 18px; padding-left: 9%; width: 80%; text-transform: capitalize; font-weight: normal;}
-.qa-right-side{float:right; width:66%;}
+.qa-right-side{float:right; width:66%;text-align:left;}
 .qa-right-side #qa-page-wrapper{margin-left:0px;}
 /* /////// End  Q&A Pages CSS     ////////    */
 .slider{float:right; width:74%; margin-top:15px; border-radius:5px}
@@ -3392,7 +3392,7 @@ margin-right: auto;
 float: none;
 }
 }
-#content{float:none; text-align:center; width:100% !important }
+#content{float:none; text-align:center; /* width:100% !important  */}
 .left-content{display: inline-block;; float:none !important; width:80%}
 .slider{display: inline-block; float: none !important;  margin-top: 15px; width: 85%;}
 .healthy{width:100%; text-align:center !important; float:none !important; font-size: 37px;}
@@ -3956,3 +3956,19 @@ color:#c351fa;
 #qa-menu ul li.active-tab a{
 color:#c351fa;
 }
+.comments.show-comment {
+    cursor: pointer;
+}
+.author-name a {color: #FFFFFF;}
+.comment-right {float: left;width: 70%;}
+.comment-left {float: left; width: 30%;}
+.comment-right #comment {margin-top: 0;}
+#commentform #submit {float: right;margin: 10px 20px 0 0;}
+.addthis_button {cursor: pointer;display: block;margin-bottom: 10px;}
+.widget_recent_entries > ul {margin-top: 15px;}
+.widget_recent_entries  > ul > li {padding: 0;}
+.widget_recent_entries  > ul > li:nth-child(4n) {margin-bottom: 15px;}
+
+.comment-avatar img {border: 5px solid #FFFFFF;border-radius: 5px;box-shadow: 0 0px 2px rgba(0, 0, 0, 0.4);-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);
+-moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);-o-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.4);}
+

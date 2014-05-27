@@ -1,3 +1,26 @@
+   <script>
+   // Show/Hide Comments
+    jQuery(document).ready(function() {
+    // Get #comment-section div
+    var commentsDiv = jQuery('#commentlist');
+    // Only do this work if that div isn't empty
+    if (commentsDiv.length) {
+    // Hide #comment-section div by default
+    jQuery(commentsDiv).hide();
+    // Append a link to show/hide
+
+    // When show/hide is clicked
+    jQuery('.show-comment').on('click', function(e) {
+    e.preventDefault();
+    // Show/hide the div using jQuery's toggle()
+    jQuery(commentsDiv).toggle('slow', function() {
+    // change the text of the anchor
+    });
+    });
+    } // End of commentsDiv.length
+    }); // End of Show/Hide Comments
+</script>
+
 <?php
 
 // Do not delete these lines
@@ -56,11 +79,18 @@ $GLOBALS['comment'] = $comment; ?>
 
 <?php if('open' == $post->comment_status OR have_comments()) { ?>	
 	<div id="comments">
-<?php } ?>
+<?php } 
+
+?>
+
 
 	<?php if(have_comments()) { // If there are comments ?>
-		
-		<h3 class="comments"><?php comments_number(__('No Comments', 'gp_lang'), __('1 Comment', 'gp_lang'), __('% Comments', 'gp_lang')); ?></h3>
+		<?php 
+ $num_comments = get_comments_number(); 
+ if($num_comments > 0){
+?>
+		<h3 class="comments show-comment"><?php comments_number(__('No Comments', 'gp_lang'), __('1 Comment', 'gp_lang'), __('% Comments', 'gp_lang')); ?></h3>
+		<?php } ?>
 		
 		<ol id="commentlist">
 			<?php wp_list_comments('callback=comment_template'); ?>
@@ -79,6 +109,7 @@ $GLOBALS['comment'] = $comment; ?>
 		<?php } ?>
 		
 	<?php } else { // If there are no comments yet ?>
+	<h3 class="comments"><?php _e('No Comments'); ?></h3>
 	
 	<?php } ?>
 
@@ -99,7 +130,7 @@ $GLOBALS['comment'] = $comment; ?>
 				<?php } else { ?>
 			
 					<form action="<?php echo get_option('siteurl'); ?>/wp-comments-post.php" method="post">
-			
+			<div class="comment-left">
 					<?php if ($user_ID) { ?>
 			
 						<p><?php _e('Logged in as', 'gp_lang'); ?> <a href="<?php echo get_option('siteurl'); ?>/wp-admin/profile.php"><?php echo $user_identity; ?></a> <a href="<?php echo wp_logout_url(get_permalink()); ?>">(<?php _e('Logout', 'gp_lang'); ?>)</a></p>
@@ -110,11 +141,10 @@ $GLOBALS['comment'] = $comment; ?>
 			
 						<p><label for="email"><?php _e('Email', 'gp_lang'); ?> <span class="required"><?php if ($req) echo "*"; ?></span></label><input type="text" name="email" id="email" value="<?php echo $comment_author_email; ?>" size="22" tabindex="2" <?php if ($req) echo "aria-required='true'"; ?> /></p>
 						
-						<p><label for="url"><?php _e('Website', 'gp_lang'); ?></label><input type="text" name="url" id="url" value="<?php echo $comment_author_url; ?>" size="22" tabindex="3" /></p>
+						<!--p><label for="url"><?php // _e('Website', 'gp_lang'); ?></label><input type="text" name="url" id="url" value="<?php // echo $comment_author_url; ?>" size="22" tabindex="3" /></p -->
 						
-					<?php } ?>
-						
-					<p><textarea name="comment" id="comment" cols="5" rows="7" tabindex="4"></textarea></p>
+					<?php } ?></div>
+						<div class="comment-right"><p><label for="email"><?php _e('Comment', 'gp_lang'); ?> </label><textarea name="comment" id="comment" cols="5" rows="7" tabindex="4"></textarea></p></div>
 					
 					<input name="submit" type="submit" id="submit" tabindex="5" value="<?php _e('Post', 'gp_lang'); ?>" />
 	

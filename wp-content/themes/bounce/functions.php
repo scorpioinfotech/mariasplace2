@@ -614,8 +614,8 @@ register_sidebar( array(
     'after_title'  => '</h1>',
 ) );
 register_sidebar( array(
-    'name'         => __( 'Articles Page Sidebar' ),
-    'id'           => 'articles-page',
+    'name'         => __( 'Article Page Sidebar' ),
+    'id'           => 'article',
     'description'  => __( 'Widgets in this area will be shown on Questions Page.' ),
     'before_title' => '<h1>',
     'after_title'  => '</h1>',

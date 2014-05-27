@@ -57,7 +57,7 @@ if (jQuery(this).hasClass("unfav")){
 
 		jQuery(this).html( " Liked" );
      }
-   });
+   });                
 
 });
 
@@ -125,27 +125,19 @@ jQuery("."+id).addClass("vote-up-off");
    }); */
 });
 
-
 jQuery(window).load( function() {
+//alert("window loaded");
+if(jQuery(".qa-voting-box input[type='submit']").hasClass("vote-up-off")) {
 
-jQuery(".qa-voting-box").each(function()
-{
 
-var id=jQuery(this).attr('id');
-if(jQuery('#'+id+" "+"input[type='submit']").hasClass("vote-up-off"))
-{
-
-jQuery("."+id).addClass("vote-up-off");
+jQuery(".span").addClass("vote-up-off");
 }
-else
-{
-jQuery('#'+id).closest('.qa-voting-wrap').addClass("qa-active");
-jQuery("."+id).addClass("vote-up-on");}
 
+else {
+//alert("vote-up-on");
+jQuery(".span").addClass("vote-up-on");
+}
 });
-
-});
-
 
 	</script>
 <script type="text/javascript">
@@ -509,35 +501,49 @@ echo $current_user->user_login; ?><br>
 
 <?php if((is_post_type_archive() == 'Questions')||is_singular('question')){?>
 <cite>Community</cite>
-
- 
-<?php } 
-else{ ?>
-    <cite><?php the_title() ?></cite>
+<?php } elseif(is_category('Articles')){ ?>
+<cite>Maria's Corner</cite>
+<?php } else{ ?>
+<cite><?php the_title() ?></cite>
 <?php } ?>
 <div class="breadcrumb">
 <?php if(is_post_type_archive() == 'Questions'){?>
 
 <span itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="">
-<a itemprop="url" title="Home" href="http://mariasplace.com"><span itemprop="title">Home</span><span class="icon-uniE60F2"></span></a>
+<a itemprop="url" title="Home" href="<?php bloginfo('url'); ?>"><span itemprop="title">Home</span><span class="icon-uniE60F2"></span></a>
 </span>
 <span itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="">
 <span itemprop="title">Community</span>
 </span>
 
 
-<?php }elseif(is_singular('question')){ ?>
+<?php } elseif(is_category('Articles')){ ?>
 <span itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="">
-<a itemprop="url" title="Home" href="http://mariasplace.com"><span itemprop="title">Home</span><span class="icon-uniE60F2"></span></a>
+<a itemprop="url" title="Home" href="<?php bloginfo('url'); ?>"><span itemprop="title">Home</span><span class="icon-uniE60F2"></span></a>
 </span>
 <span itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="">
-<a itemprop="url" title="Community" href="http://mariasplace.com/questions/"><span itemprop="title">Community</span></a>
+<span itemprop="title">Maria's Corner</span>
+</span>
+<?php }
+elseif(is_singular('question')){ ?>
+<span itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="">
+<a itemprop="url" title="Home" href="<?php bloginfo('url'); ?>"><span itemprop="title">Home</span><span class="icon-uniE60F2"></span></a>
+</span>
+<span itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="">
+<a itemprop="url" title="Community" href="<?php bloginfo('url'); ?>/questions/"><span itemprop="title">Community</span><span class="icon-uniE60F2"></span></a>
+</span>
+
+
+<?php }elseif(is_single()){ ?>
+<span itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="">
+<a itemprop="url" title="Home" href="<?php bloginfo('url'); ?>"><span itemprop="title">Home</span><span class="icon-uniE60F2"></span></a>
+</span>
+<span itemtype="http://data-vocabulary.org/Breadcrumb" itemscope="">
+<a itemprop="url" title="Maria's Corner" href="<?php bloginfo('url'); ?>/category/articles/"><span itemprop="title">Maria's Corner</span></a>
 </span>
 
 
 <?php }
-
-
  else { ?>
   
 <?php breadcrumbs_everywhere(); ?>

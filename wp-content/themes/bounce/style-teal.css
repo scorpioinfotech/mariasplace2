@@ -147,13 +147,12 @@ color: #78DDCD;
 /*************************** Shortcodes: Author Info ***************************/
 
 .author-info {
-background-color: #6A8A87;
-background-image: -moz-linear-gradient(#6A8A87, #495F5B);
-background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#6A8A87), to(#495F5B));
-background-image: -webkit-linear-gradient(#6A8A87, #495F5B);
-background-image: -o-linear-gradient(#6A8A87, #495F5B);
-background-image: -ms-linear-gradient(#6A8A87, #495F5B);
--pie-background: linear-gradient(#6A8A87, #495F5B);
+background-image: -moz-linear-gradient(#313A41, #1D2226) ;
+background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#313A41), to(#1D2226));
+background-image: -webkit-linear-gradient(#313A41, #1D2226);
+background-image: -o-linear-gradient(#313A41, #1D2226);
+background-image: -ms-linear-gradient(#313A41, #1D2226);
+-pie-background: linear-gradient(#313A41, #1D2226);
 }
 .author-info .author-links {
 color: #9FB7B7;

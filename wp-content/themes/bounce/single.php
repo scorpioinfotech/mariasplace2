@@ -5,7 +5,7 @@
 global $qa_general_settings;
 
 if ( isset( $qa_general_settings["page_layout"] ) && $qa_general_settings["page_layout"] !='content' )
-	dynamic_sidebar('Articles Page Sidebar');
+	dynamic_sidebar( 'Article Page Sidebar' );
 ?>
 </div>
 
@@ -23,7 +23,11 @@ if ( isset( $qa_general_settings["page_layout"] ) && $qa_general_settings["page_
 
 
 <div class="lft-content">
-		
+		<!-- AddThis Button BEGIN -->
+<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=ra-537efa5854ef0739"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-537efa5854ef0739"></script>
+<!-- AddThis Button END -->
 		<!-- BEGIN FEATURED IMAGE -->
 		
 		<?php if(has_post_thumbnail() && $gp_settings['show_image'] == "Show") { ?>
@@ -44,6 +48,12 @@ if ( isset( $qa_general_settings["page_layout"] ) && $qa_general_settings["page_
 			<?php the_content(__('Read More &raquo;', 'gp_lang')); ?>
 			
 		</div>
+		<div class="right">
+		
+<a class="addthis_button" href="http://www.addthis.com/bookmark.php?v=300&amp;pubid=ra-537efa5854ef0739"><img src="http://s7.addthis.com/static/btn/v2/lg-share-en.gif" width="125" height="16" alt="Bookmark and Share" style="border:0"/></a></div>
+<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-537efa5854ef0739"></script>
+<!-- AddThis Button END -->
 		
 		<!-- END POST CONTENT -->
 		
@@ -86,9 +96,10 @@ if ( isset( $qa_general_settings["page_layout"] ) && $qa_general_settings["page_
 		<?php comments_template(); ?>
 		
 		<!-- END COMMENTS -->
-	
+
 	
 	</div>
+	
 
 	<!-- END CONTENT -->
 	
@@ -102,5 +113,6 @@ if ( isset( $qa_general_settings["page_layout"] ) && $qa_general_settings["page_
 </div>
 
 </div>
+
 
 <?php get_footer(); ?>
